@@ -63,22 +63,22 @@ const Testimonials = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas veritatis illo placeat
               harum porro optio fugit a culpa sunt id!
             </p>
-            <div className="hidden justify-center lg:mt-8 lg:flex lg:gap-4">
+            <div className="swiper-controler justify-center items-center h-[70px] w-[100%] lg:mt-12 lg:gap-4">
               <button
                 aria-label="Previous slide"
                 onClick={() => {}}
-                className="rounded-full border border-primary p-3 text-primary transition hover:bg-primary hover:text-white"
+                className="rounded-full border border-primary p-8 text-primary transition hover:bg-primary hover:text-white swiper-button-prev"
               >
-                <ChevronLeftIcon className="text-primary hover:text-white w-6 h-6 swiper-button-prev" />
+                <ChevronLeftIcon className="text-primary hover:text-white w-6 h-6" />
               </button>
               <button
                 aria-label="Next slide"
                 onClick={() => {}}
-                className="rounded-full border border-primary p-3 text-primary transition hover:bg-primary hover:text-white"
+                className="rounded-full border border-primary p-8 text-primary transition hover:bg-primary hover:text-white swiper-button-next"
               >
-                <ChevronRightIcon className="text-primary hover:text-white w-6 h-6 swiper-button-next" />
+                <ChevronRightIcon className="text-primary hover:text-white w-6 h-6" />
               </button>
-              <div className="swiper-pagination"></div>
+              <div className="swiper-pagination flex gap-[6px] justify-center"></div>
             </div>
           </div>
           <div className="md:-mx-4 lg:col-span-2 lg:mx-0">

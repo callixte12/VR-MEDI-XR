@@ -191,6 +191,45 @@ export const benefits = [
   },
 ]
 
+export const accordionData = [
+  {
+    id: 1,
+    question: 'What is Flowbite?',
+    answer:
+      'Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.',
+  },
+  {
+    id: 2,
+    question: 'Is there a Figma file available?',
+    answer:
+      'Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.',
+  },
+  {
+    id: 3,
+    question: 'What are the differences between Flowbite and Tailwind UI?',
+    answer:
+      'The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.',
+  },
+  {
+    id: 4,
+    question: 'What is Flowbite?',
+    answer:
+      'Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.',
+  },
+  {
+    id: 5,
+    question: 'Is there a Figma file available?',
+    answer:
+      'Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.',
+  },
+  {
+    id: 6,
+    question: 'What are the differences between Flowbite and Tailwind UI?',
+    answer:
+      'The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.',
+  },
+]
+
 export const sponsors = [
   sponsor_one,
   sponsor_two,

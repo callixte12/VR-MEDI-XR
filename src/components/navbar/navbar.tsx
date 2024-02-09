@@ -19,7 +19,7 @@ const Navbar = () => {
             <h3 className="text-secondary font-bold text-4xl font-poppins">Medi<span className="text-primary font-extrabold">XR</span></h3>
         </div>
 
-        <div className="md:flex hidden justify-end items-center gap-8">
+        <div className="lg:flex hidden justify-end items-center gap-8">
             <ul className="list-none flex flex-1">
                 {navLinks.map((nav, index) => (
                     <li
@@ -36,7 +36,7 @@ const Navbar = () => {
             <StyledButton styles='px-4 py-2 text-[16px] font-bold text-white rounded-xl mb-2 bg-black-gradient' label='Contact Us' />
         </div>
 
-        <div className="md:hidden flex flex-1 justify-end items-center">
+        <div className="lg:hidden flex flex-1 justify-end items-center">
             <div onClick={() => setToggle(!toggle)} className="w-[35px] h-[35px] object-contain">
                 {toggle ? <XMarkIcon /> : <Bars4Icon />}
             </div>
