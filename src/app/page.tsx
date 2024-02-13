@@ -8,16 +8,16 @@ export default function Home() {
       <Head>
         <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
       </Head>
-      <main className="max-w-[1500px] m-auto w-full overflow-hidden">
+      <main className="m-auto w-[100%] overflow-hidden">
         <div className="bg-hero-2">
           <NavBar />
           <Hero />
         </div>
-          <section id="company">
-            <Company />
-          </section>
+        <section id="company">
+          <Company />
+        </section>
         <div className="mx-auto overflow-y-scroll bg-bg-5 bg-cover bg-fixed bg-center bg-no-repeat shadow-lg -mt-[200px] pt-[200px]">
-          <section id="features">
+          <section id="features" className="max-w-[1800px] mx-auto">
             <Features />
           </section>
           <section id="benefits">

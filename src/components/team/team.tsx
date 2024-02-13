@@ -10,14 +10,13 @@ import TeamModal from './teamModal'
 const Teams = () => {
   const [showForm, setShowForm] = useState<number | null>(null)
   return (
-    <>
-      <div className="h-[200px] bg-bg-7 bg-cover -mt-12"></div>
-      <div className="bg-[#fff] flex flex-col justify-space-between items-center h-fit py-8 gap-6">
+    <div className="flex justify-center">
+      <div className="bg-slate-100 flex flex-col justify-space-between items-center h-fit py-8 gap-6">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-black-gradient text-[48px] font-bold">Our Team</h1>
+          <h1 className="text-blue-gradient text-[48px] xxl:text-[54px] font-bold">Our Team</h1>
           <p className="font-poppins text-[18px]">Meet the people we work with behind the scenes</p>
         </div>
-        <div className="flex flex-wrap gap-4 max-w-[1050px]">
+        <div className="flex flex-wrap gap-6 xxl:gap-12 max-w-[1100px] mx-auto">
           {
             team.map((member, i) => (
               <div key={i} onClick={() => setShowForm(i)}>
@@ -36,7 +35,7 @@ const Teams = () => {
           }
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

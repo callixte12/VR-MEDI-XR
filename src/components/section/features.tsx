@@ -21,16 +21,16 @@ const FeatureCard = ({ icon, title, content, index }: any) => (
   )
   
   const Features = () =>  (
-      <div id="features" className="flex max-md:flex-col my-8 max-md:my-24 gap-12 sm:pl-12 pl-6 h-[600px] items-center justify-center">
-        <div className="flex flex-1 flex-col items-center">
-          <h2 className="font-poppins font-semibold xs:text-[100px] text-[40px] text-center text-secondary xs:leading-[76.8px] leading-[66.8px] w-full">
+      <div id="features" className="flex max-md:flex-col my-8 max-md:my-24 gap-12 sm:pl-12 pl-6 h-[600px] max-w-[1800px] mx-auto items-center justify-between">
+        <div className="feature__text flex flex-[40%] flex-2 flex-col items-center">
+          <h2 className="font-poppins font-semibold xs:text-[100px] text-[40px] text-center text-white w-full">
             Bringing Virtual Reality <br className="sm:block hidden" /> into the World of Medicine
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5 text-dimWhite`}>
+          <p className={`${styles.paragraph} max-w-[500px] mt-5 text-dimWhite`}>
               MediXR is training future Expert Doctors and Medical students through use of advance technologies such as Virtual Reality and Augmented Reality
           </p>
         </div>
-        <div className={"flex-col md:w-[50%] md:-mt-20"}>
+        <div className="features__card flex-[60%] flex-col md:w-[50%] md:-mt-20">
           {features.map((feature, index) => (
             <FeatureCard key={feature.id} {...feature} index={index} clasName="w-[100%] text-black" />
           ))}

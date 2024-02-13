@@ -32,10 +32,10 @@ const Products = () => {
   return (
     <div className="flex flex-col items-center justify-center h-fit py-12 px-8 gap-8">
       <div className="flex flex-col items-center justify-center gap-4">
-        <h3 className="text-[60px] font-bold text-secondary">Product</h3>
-        <p className="text-dimWhite max-w-[1000px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur or sit amet, consectetur</p>
+        <h3 className="text-[60px] font-bold text-white">Product</h3>
+        <p className="text-dimWhite max-w-[1200px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur or sit amet, consectetur</p>
       </div>
-      <div className="flex max-w-[1400px] justify-around flex-wrap gap-4">
+      <motion.div className="flex max-w-[1800px] justify-around flex-wrap gap-4 xxl:gap-12">
         {productFeatures.map((product, i) => (
             <Tilt className={`
               ${(i == 0 || i == 4) ? "xl:mt-48" : (i == 1 || i == 3) && "xl:mt-24"} 
@@ -57,7 +57,7 @@ const Products = () => {
                 </motion.div>
             </Tilt>
         ))}
-      </div>
+      </motion.div>
     </div>
   )
 }

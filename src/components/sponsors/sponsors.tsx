@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-col gap-8 items-center justify-center w-[100%] h-[370px] bg-white">
+    <div className="flex flex-col gap-8 items-center justify-center w-[100%] h-[450px] bg-white">
         <h3 className="text-primary mb-4 text-[50px] mt-8" style={{ fontWeight: 900 }}>Our Sponsors</h3>
-        <div className="slider">
+        <div className="slider xxl:w-[70%]">
           <div className="slide-track">
             {sponsors.map((sponsor, index) => (
                 <div key={index} className="slide">

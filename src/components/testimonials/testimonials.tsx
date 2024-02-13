@@ -52,11 +52,11 @@ const Testimonials = () => {
     ]
 
   return (
-    <section className="bg-gray-50">
-      <div className="mx-2 w-[100%] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+    <section className="bg-gray-50 flex justify-center">
+      <div className="max-w-[1800px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
           <div className="flex flex-col justify-center text-center lg:col-span-1">
-            <h2 className="text-3xl font-bold tracking-tight text-secondary sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
               What do our Clients say?
             </h2>
             <p className="mt-4 text-gray-700">
@@ -69,14 +69,14 @@ const Testimonials = () => {
                 onClick={() => {}}
                 className="rounded-full border border-primary p-8 text-primary transition hover:bg-primary hover:text-white swiper-button-prev"
               >
-                <ChevronLeftIcon className="text-primary hover:text-white w-6 h-6" />
+                <ChevronLeftIcon className="text-primary hover:text-white w-4 h-4" />
               </button>
               <button
                 aria-label="Next slide"
                 onClick={() => {}}
                 className="rounded-full border border-primary p-8 text-primary transition hover:bg-primary hover:text-white swiper-button-next"
               >
-                <ChevronRightIcon className="text-primary hover:text-white w-6 h-6" />
+                <ChevronRightIcon className="text-primary hover:text-white w-4 h-4" />
               </button>
               <div className="swiper-pagination flex gap-[6px] justify-center"></div>
             </div>

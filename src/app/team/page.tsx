@@ -1,15 +1,15 @@
 'use client'
 
-import { StyledButton } from '@/widgets'
 import logo from '@/assets/logo.png'
 import picture from '@/assets/IMGL8932.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
+import { StyledButton } from '@/widgets'
 import { Team } from '@/components'
 
 const Page = () => {
   return (
-    <div>
+    <div className="bg-slate-100">
         <div className="bg-blur-1 bg-cover">
             <nav className="w-full md:px-4 lg:px-12 px-2 font-mono flex py-6 justify-between items-center navbar z-20">
                 <div className="flex gap-2 items-center">
@@ -33,17 +33,17 @@ const Page = () => {
                     <StyledButton styles='px-4 py-2 text-[16px] font-bold text-white rounded-xl mb-2 bg-black-gradient' label='Contact Us' />
                 </div>
             </nav>
-            <section className="relative flex flex-col gap-12 mt-6 items-center">
+            <section className="relative flex flex-col gap-12 mt-6 items-center h-[100%] xxl:h-[90vh]">
                 <h1 className="text-4xl">Our Team</h1>
-                <Image src={picture} alt="Team" width={150} height={150} className="w-[100%] md:w-[90%] xl:w-[75%] h-[600px]" />
-                <div className='absolute right-0 bottom-0 bg-white lg:w-[40%] w-[90%] py-[50px] px-[50px]'>
-                    <h3 className="text-primary font-poppins text-[24px] font-bold">MediXR Development </h3>
+                <Image src={picture} alt="Team" width={150} height={150} className="w-[100%] md:w-[90%] xl:w-[75%] h-[600px] xxl:h-[91%]" />
+                <div className='absolute right-0 bottom-0 bg-white lg:w-[40%] w-[90%] xxl:pr-[100px] xxl:py-[150px] py-[50px] px-[50px]'>
+                    <h3 className="text-primary font-poppins text-[32px] font-bold">MediXR Development</h3>
                     <p className="font-poppins">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, suscipit accusantium. Aspernatur, a enim est consectetur sequi amet placeat ipsam quis pariatur nisi eius, distinctio doloremque maxime rem minima accusantium!</p>
                     <button className="bg-primary rounded-full px-4 py-2 text-white mt-8">Meet the team</button>
                 </div>
             </section>
         </div>
-        <section id="teams">
+        <section id="teams" className="pt-8">
             <Team />
         </section>
     </div>

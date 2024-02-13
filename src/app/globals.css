@@ -283,6 +283,34 @@
   }
 }
 
+@keyframes slide-in {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes inverted-slide-in {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.description__accordion, .features__card {
+  animation: slide-in 2s;
+}
+
+.feature__text {
+  animation: inverted-slide-in 2s;
+}
+
+
+
 .slide {
   height: 200px;
   width: 350px;

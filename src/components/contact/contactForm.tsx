@@ -20,7 +20,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <div className="h-[100%] my-6">
+      <div className="h-[100%] my-12">
         <div className="flex justify-center items-center h-[100%]">
             <div className="flex flex-col h-fit bg-white w-[100%]">
                 <div>

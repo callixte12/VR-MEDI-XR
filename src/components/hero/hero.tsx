@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className="flex xl:flex-row flex-col gap-2 max-lg:gap-12 mt-40 min-h-[600px] h-fit relative w-[100%] mx-auto">
+    <div className="flex xl:flex-row flex-col gap-2 max-lg:gap-12 mt-40 min-h-[600px] h-fit relative max-w-[1500px] mx-auto">
       <div className="flex-1 pt-36 sm:px-12 px-6 pb-12 space-y-12">
         <div className="mb-4">
             <p className="text-[45px] max-md:text-[28px] text-black-gradient">Welcome to</p>
