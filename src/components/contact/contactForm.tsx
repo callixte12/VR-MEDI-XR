@@ -64,7 +64,7 @@ const ContactForm = () => {
                                     name="email"
                                 />
                                 <div className="mb-4">
-                                    <label htmlFor="request_type" className="mr-4 mb-8 text-[18px]">Request type</label>
+                                    <label htmlFor="request_type" className="ml-4 mb-8 text-[16px] text-gray-400">Request type</label>
                                     <select className="input_2 px-4">
                                         <option value="demo" onChange={() => setRequest("demo")}>Demo</option>
                                         <option value="query" onChange={() => setRequest("query")}>Query</option>

@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { slides } from '@/constants'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 import { ChevronLeftIcon, ChevronRightIcon, StarIcon } from '@heroicons/react/24/solid'
@@ -11,50 +12,10 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
 const Testimonials = () => {
-
-    const slides = [
-        {
-        rating: 1,
-        quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-        author: "Michael Scott",
-        role: "Software Developer, B&B",
-        image: ''
-        },
-        {
-        rating: 3,
-        quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-        author: "M Scott",
-        role: "Software Developer, B&B",
-        image: ''
-        },
-        {
-        rating: 4,
-        quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-        author: "Michael S",
-        role: "Software Developer, B&B",
-        image: ''
-        },
-        {
-        rating: 4,
-        quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-        author: "Michael S",
-        role: "Software Developer, B&B",
-        image: ''
-        },
-        {
-        rating: 4,
-        quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-        author: "Michael S",
-        role: "Software Developer, B&B",
-        image: ''
-        },
-        // Add more slides as needed
-    ]
-
   return (
     <section className="bg-gray-50 flex justify-center">
       <div className="max-w-[1800px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
+        <div className="w-[90%] mx-auto justify-center grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
           <div className="flex flex-col justify-center text-center lg:col-span-1">
             <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
               What do our Clients say?
@@ -64,20 +25,6 @@ const Testimonials = () => {
               harum porro optio fugit a culpa sunt id!
             </p>
             <div className="swiper-controler justify-center items-center h-[70px] w-[100%] lg:mt-12 lg:gap-4">
-              <button
-                aria-label="Previous slide"
-                onClick={() => {}}
-                className="rounded-full border border-primary p-8 text-primary transition hover:bg-primary hover:text-white swiper-button-prev"
-              >
-                <ChevronLeftIcon className="text-primary hover:text-white w-4 h-4" />
-              </button>
-              <button
-                aria-label="Next slide"
-                onClick={() => {}}
-                className="rounded-full border border-primary p-8 text-primary transition hover:bg-primary hover:text-white swiper-button-next"
-              >
-                <ChevronRightIcon className="text-primary hover:text-white w-4 h-4" />
-              </button>
               <div className="swiper-pagination flex gap-[6px] justify-center"></div>
             </div>
           </div>
@@ -116,20 +63,20 @@ const Testimonials = () => {
                 {slides.map((slide, i) => (
                   <SwiperSlide key={i}>
                     <div className="w-[400px] max-sm:w-[97%] rounded-xl box-shadow bg-white">
-                          <blockquote className="flex h-full flex-col justify-between shadow-sm p-8 lg:py-8 lg:px-12">
+                          <blockquote className="flex h-full flex-col justify-between shadow-sm p-4 lg:py-8 lg:px-12">
                               <div>
-                                <h3 className="text-black-gradient text-[80px] -mb-12 font-poppins">&quot;</h3>
+                                <h3 className="text-black-gradient text-[70px] -mb-12 font-poppins">&quot;</h3>
                                 <div className="mt-4">
-                                    <p className="text-[16px]">{slide.quote}</p>
+                                    <p className="text-[15px]">{slide.quote}</p>
                                 </div>
                               </div>
-                              <footer className="flex mt-4 text-sm font-medium text-gray-700 sm:mt-6 items-center gap-4">
-                                <div className={`flex items-center justify-center w-[50px] h-[50px] rounded-full bg-[#002fff35]`}>
+                              <footer className="flex mt-2 text-sm font-medium text-gray-700 items-center gap-4">
+                                <div className={`flex items-center justify-center w-[45px] h-[45px] rounded-full bg-[#002fff35]`}>
                                   <Image src="" alt="star" className="w-[50%] h-[50%] object-contain" />
                                 </div>
                                   <div>
-                                      <p className="mt-4 leading-relaxed font-bold text-primary text-[18px]">{slide.author}</p>
-                                      {slide.role}
+                                      <p className="mt-6 leading-relaxed font-bold text-primary text-[15px]">{slide.author}</p>
+                                      <p className="text-[14px] text-gray-600">{slide.role}</p>
                                       <div className="flex mt-2">
                                           {[1,2,3,4,5].map((i) => <StarIcon key={i} className={`w-[20px] aspect-square ${i <= slide.rating ? 'text-primary' : 'text-slate-300' }`} /> )} 
                                       </div>

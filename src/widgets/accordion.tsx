@@ -23,7 +23,7 @@ const Accordion = () => {
               onClick={() => handleAccordionClick(item.id)}
             >
               <span>{item.question}</span>
-              <ChevronDownIcon className={`w-6 h-6 rotate-${openAccordion === item.id ? '180' : '0'} shrink-0`} />
+              <ChevronDownIcon className={`w-4 h-4 rotate-${openAccordion === item.id ? '180' : '0'} shrink-0`} />
             </button>
           </h2>
           <div

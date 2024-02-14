@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="h-[300px] xxl:h-[500px] bg-bg-7 bg-cover -mt-12 xl:-mt-32 border-b-white"></div>
         <div className="flex flex-col gap-12 bg-[#fff] h-[600px] items-center justify-center border-white">
           <div className="flex flex-col justify-center items-center bg-white">
-            <h1 className="text-black-gradient text-[48px] font-bold">Benefits</h1>
+            <h1 className="text-primary text-[54px] font-bold">Benefits</h1>
             <p className="font-poppins text-[18px]">Meet the people behing our growing success</p>
           </div>
           <div className="flex flex-wrap mx-auto gap-8 xxl:gap-20 justify-center max-w-[1800px]">
