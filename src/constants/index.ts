@@ -34,50 +34,50 @@ export const features = [
     icon: StarIcon,
     title: "Reduced Cost",
     content:
-      "High Cost in building facilities for Learning.",
+      "With Our Virtual Labs reduce the cost of building facilities",
   },
   {
     id: "feature-2",
     icon: StarIcon,
     title: "Medical Training",
     content:
-      "Lack of basic and advance medical equipment for training. ",
+      "Learn how to use medical equipment before stepping into real world. ",
   },
   {
     id: "feature-3",
     icon: BriefcaseIcon,
     title: "Experts",
     content:
-      "Access to experts across the globe",
+      "Train and learn from experts across the globe with our simulation technology",
   },
   {
     id: "feature-4",
     icon: StarIcon,
     title: "Immersive Training",
     content:
-      "Advance and Immersive training to access understanding.",
+      "Practice clinical cases in an immersive environment",
   }
 ]
 
 export const productFeatures = [
   {
-    title: 'Anatomy Labs ',
+    title: 'Anatomy Lab',
     description: 'Learn Anatomy at the tip of your fingers with complex simulations and outcomes linked to every body part.'
   },
   {
-    title: 'Surgery Labs',
-    description: 'With various available surgeries, you can practise at your own pace while timing your understanding of various steps required to complete a surgery, ranging through various levels of understanding.'
+    title: 'Surgery Lab',
+    description: 'With various available surgeries, you can practise at your own pace while timing your understanding of various steps required to complete a surgery, ranging through various tiers of understanding.'
   },
   {
     title: 'AI Training',
-    description: 'With our in build AI assistance, your learning is ensured to be personalised to your understanding and skill.'
+    description: 'Get deep understanding of your performance in real time with our AI System'
   },
   {
     title: 'Sugery Recording Labs',
-    description: 'With an array of 360 surgery videos at the tip of your fingers your empowered to mastery of your skills at the maximum level.'
+    description: 'Immerse yourself in live surgeries of various types'
   },
   {
-    title: 'Multi User Experience',
+    title: 'Multi User',
     description: 'Take your learning beyond the boundaries of your country or region and learn from experts across the world while collaborating with others students in VR'
   }
 ]
@@ -87,35 +87,35 @@ export const slides = [
   rating: 1,
   quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
   author: "Michael Scott",
-  role: "Software Developer, B&B",
+  role: "Medical Student, B&B",
   image: ''
   },
   {
   rating: 3,
   quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
   author: "M Scott",
-  role: "Software Developer, B&B",
+  role: "Medical Student, B&B",
   image: ''
   },
   {
   rating: 4,
   quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
   author: "Michael S",
-  role: "Software Developer, B&B",
+  role: "Medical Student, B&B",
   image: ''
   },
   {
   rating: 4,
   quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
   author: "Michael S",
-  role: "Software Developer, B&B",
+  role: "Medical Student, B&B",
   image: ''
   },
   {
   rating: 4,
   quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
   author: "Michael S",
-  role: "Software Developer, B&B",
+  role: "Medical Student, B&B",
   image: ''
   },
   // Add more slides as needed
@@ -124,26 +124,26 @@ export const slides = [
 export const team = [
   {
     id: 1,
-    name: 'John Doe',
-    email: 'johndoe@gmail.com',
+    name: 'Nwalahnjie Akumawah',
+    email: 'nwalahnjie.medixr@gmail.com',
     imageUrl: '',
     role: 'CEO',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'Computer Graphics Engineer with experience in Cyber Security.'
   },
   {
     id: 2,
-    name: 'Jean Doe',
-    email: 'johndoe@gmail.com',
+    name: 'Eseosa Kay-Uwagboe',
+    email: 'eseosa.medixr@gmail.com',
     imageUrl: '',
-    role: 'CEO',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    role: 'CTO',
+    description: '3D Experience Artist with importance to details'
   },
   {
     id: 3,
-    name: 'Jim Doe',
-    email: 'johndoe@gmail.com',
+    name: 'Jean Robert Gatwaza',
+    email: 'jeanrobertgatwaza.medixr@gmail.com',
     imageUrl: '',
-    role: 'CEO',
+    role: 'CMO',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
   },
   {
@@ -151,7 +151,7 @@ export const team = [
     name: 'Jill Doe',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CEO',
+    role: 'COO',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
   },
   {
@@ -159,7 +159,7 @@ export const team = [
     name: 'Jones Doe',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CEO',
+    role: 'Business Manager',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
   },
   {
@@ -167,7 +167,7 @@ export const team = [
     name: 'Jones Doe',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CEO',
+    role: 'Content Management',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
   },
   {
@@ -175,7 +175,7 @@ export const team = [
     name: 'Jones Doe',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CEO',
+    role: 'Content Management',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
   },
   {
@@ -183,7 +183,7 @@ export const team = [
     name: 'Jannet Doe',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CTO',
+    role: 'UI/UX Designer Intern',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
   },
 ]
@@ -191,23 +191,23 @@ export const team = [
 export const experts = [
   {
     id: 1,
-    name: 'John Doe',
+    name: 'Dr Zyh',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CEO',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
+    role: 'Patient Care Expert',
+    description: 'Dr Zyh has worked in several help post and hospitals around Cameroon and has wide experience in patient consultation and currently runs EasyHealth which brings home consultations'
   },
   {
     id: 2,
-    name: 'Jean Doe',
+    name: 'Dr Daniel',
     email: 'johndoe@gmail.com',
     imageUrl: '',
-    role: 'CEO',
+    role: 'Radiologies Expert',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
   },
   {
     id: 3,
-    name: 'Jim Doe',
+    name: 'Dr Noel Junior',
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'CEO',
@@ -233,39 +233,39 @@ export const benefits = [
 export const accordionData = [
   {
     id: 1,
-    question: 'What is Flowbite?',
+    question: 'What is MediXR?',
     answer:
-      'Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.',
+      'A Virtual and Augmented Reality Company creating simulations for Medical training.',
   },
   {
     id: 2,
-    question: 'Is there a Figma file available?',
+    question: 'What type of services are offered by MediXR?',
     answer:
-      'Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.',
+      'MediXR offers its simulations software to both individuals and organizations',
   },
   {
     id: 3,
-    question: 'What are the differences between Flowbite and Tailwind UI?',
+    question: 'How can I get access to MediXR software?',
     answer:
-      'The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.',
+      'The software is currently in Developement, but we encourage you to contact us and try out our Demo',
   },
   {
     id: 4,
-    question: 'What is Flowbite?',
+    question: 'What measures are in place to ensure the simulations are accurate?',
     answer:
-      'Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.',
+      'All simulations created by MediXR are approved by Education board and tested thoroughly with our Hospital and clinic partners',
   },
   {
     id: 5,
-    question: 'Is there a Figma file available?',
+    question: 'Why benefits are simulations for learning?',
     answer:
-      'Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.',
+      'Learning in Medical field is crucial, please read the benefits of our system below.',
   },
   {
     id: 6,
-    question: 'What are the differences between Flowbite and Tailwind UI?',
+    question: 'How can I support MediXR in its goals to improve Patient Healthcare?',
     answer:
-      'The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.',
+      'We are a growing team, and we believe saving lives have no price, please contact us for more information and how you can help',
   },
 ]
 

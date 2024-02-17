@@ -38,7 +38,7 @@ const Page = () => {
                 <Image src={picture} alt="Team" width={150} height={150} className="w-[100%] md:w-[90%] xl:w-[75%] h-[600px] xxl:h-[91%]" />
                 <div className='absolute right-0 bottom-0 bg-white lg:w-[40%] w-[90%] xxl:pr-[100px] xxl:py-[150px] py-[50px] px-[50px]'>
                     <h3 className="text-primary font-poppins text-[32px] font-bold">MediXR Development</h3>
-                    <p className="font-poppins">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, suscipit accusantium. Aspernatur, a enim est consectetur sequi amet placeat ipsam quis pariatur nisi eius, distinctio doloremque maxime rem minima accusantium!</p>
+                    <p className="font-poppins">At MediXR our mission to create training simulation to help Medical students and Doctors save more lives. </p>
                     <button className="bg-primary rounded-full px-4 py-2 text-white mt-8">Meet the team</button>
                 </div>
             </section>
