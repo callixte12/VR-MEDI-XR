@@ -16,7 +16,7 @@ const Benefits = () => {
           </div>
           <div className="flex flex-wrap mx-auto gap-8 xxl:gap-20 justify-center max-w-[1800px]">
             {benefits.map((benefit, i) => (
-                <motion.div variants={fadeIn("right", "spring", i * 0.5, 0.75)} key={i} className="flex flex-col w-[350px] h-[350px] gap-6 items-center justify-center border rounded-xl animate-pulse">
+                <motion.div variants={fadeIn("right", "spring", i * 0.5, 0.75)} key={i} className="flex flex-col w-[350px] h-[350px] gap-6 items-center justify-center border rounded-xl card__animation">
                     <Image src={benefit.image} alt="" width={100} height={100} className="h-[200px] w-[200px]" />
                       <p className="w-[100%] font-poppins text-center px-4">
                           {benefit.benefit}

@@ -14,10 +14,10 @@ const Navbar = () => {
 
   return (
     <nav className="fixed bg-white z-50 top-0 left-0 w-full md:px-4 lg:px-12 px-2 font-mono flex py-6 justify-between items-center navbar">
-        <div className="flex gap-2 items-center">
+        <Link href="/" className="flex gap-2 items-center">
             <Image src={logo} alt="mediXR" className="w-[60px] h-[50px]" />
             <h3 className="text-secondary font-bold text-4xl font-poppins">Medi<span className="text-primary font-extrabold">XR</span></h3>
-        </div>
+        </Link>
 
         <div className="lg:flex hidden justify-end items-center gap-8">
             <ul className="list-none flex flex-1">
@@ -33,7 +33,9 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <StyledButton styles='px-4 py-2 text-[16px] font-bold text-white rounded-xl mb-2 bg-black-gradient' label='Contact Us' />
+            <Link href="#contact">
+                <StyledButton styles='px-4 py-2 text-[16px] font-bold text-white rounded-xl mb-2 bg-black-gradient' label='Contact Us' />
+            </Link>
         </div>
 
         <div className="lg:hidden flex flex-1 justify-end items-center">

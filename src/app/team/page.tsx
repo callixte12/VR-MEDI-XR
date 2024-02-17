@@ -12,11 +12,10 @@ const Page = () => {
     <div className="bg-slate-100">
         <div className="bg-blur-1 bg-cover">
             <nav className="w-full md:px-4 lg:px-12 px-2 font-mono flex py-6 justify-between items-center navbar z-20">
-                <div className="flex gap-2 items-center">
+                <Link href="/" className="flex gap-2 items-center">
                     <Image src={logo} alt="mediXR" className="w-[60px] h-[50px]" />
                     <h3 className="text-secondary font-bold text-4xl font-poppins">Medi<span className="text-primary font-extrabold">XR</span></h3>
-                </div>
-
+                </Link>
                 <div className="sm:flex hidden justify-end items-center gap-8">
                     <ul className="list-none flex flex-1 gap-8">
                         <li
@@ -27,10 +26,12 @@ const Page = () => {
                         <li
                             className={`font-poppins font-normal cursor-pointer text-[16px] text-primary font-semibold" : "text-secondary"`}
                         >
-                            <Link href={'/'}>Team</Link>
+                            <Link href={'/team'}>Team</Link>
                         </li>
                     </ul>
-                    <StyledButton styles='px-4 py-2 text-[16px] font-bold text-white rounded-xl mb-2 bg-black-gradient' label='Contact Us' />
+                    <Link href={'/'}>
+                        <StyledButton styles='px-4 py-2 text-[16px] font-bold text-white rounded-xl mb-2 bg-black-gradient' label='Contact Us' />
+                    </Link>
                 </div>
             </nav>
             <section className="relative flex flex-col gap-12 mt-6 items-center h-[100%] xxl:h-[90vh]">

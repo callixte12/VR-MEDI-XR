@@ -287,30 +287,60 @@
 @keyframes slide-in {
   0% {
     transform: translateX(50%);
+    opacity: 0%;
   }
   100% {
     transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(50%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes pop-up {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
   }
 }
 
 @keyframes inverted-slide-in {
   0% {
     transform: translateX(-50%);
+    opacity: 0%;
   }
   100% {
     transform: translateX(0);
+    opacity: 100%;
   }
 }
 
 .description__accordion, .features__card {
-  animation: slide-in 2s;
+  animation: slide-in 3s;
+}
+
+.card__animation {
+  animation: pop-up 2s;
+}
+
+.product_card__animation {
+  animation: slide-up 3s;
 }
 
 .feature__text {
-  animation: inverted-slide-in 2s;
+  animation: inverted-slide-in 3s;
 }
-
-
 
 .slide {
   height: 200px;

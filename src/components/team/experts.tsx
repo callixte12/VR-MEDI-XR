@@ -17,7 +17,7 @@ const Experts = () => {
         <div className="flex flex-col gap-2 mt-12 justify-center items-center lg:w-[90%]">
           {
             experts.map((member, i) => (
-              <div key={i} className={`${i%2 !== 0 && "flex-row-reverse"} flex w-[95%] sm:w-[80%] xxl:w-[70%] gap-6`}>
+              <div key={i} className={`${i%2 !== 0 ? "flex-row-reverse features__card" : "feature__text"} flex w-[95%] sm:w-[80%] xxl:w-[70%] gap-6`}>
                 <div 
                   className="flex flex-col justify-center items-center gap-4 min-h-[200px] w-[250px] my-4 cursor-pointer">
                   <Image src={image} alt="" width={250} height={250} className="rounded-full h-[200px] w-[200px] object-contain flex items-center justify-center -mt-16" />

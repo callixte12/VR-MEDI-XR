@@ -40,7 +40,7 @@ const Products = () => {
             <Tilt className={`
               ${(i == 0 || i == 4) ? "xl:mt-48" : (i == 1 || i == 3) && "xl:mt-24"} 
               
-              xs:w-[250px] flex flex-col justify-center items-center h-[300px] w-[230px] bg-black-gradient-3 my-4 box-shadow rounded-xl transition duration-500 cursor-pointer`} key={i}>
+              xs:w-[250px] flex flex-col justify-center items-center h-[300px] w-[230px] bg-black-gradient-3 my-4 box-shadow rounded-xl transition duration-500 cursor-pointer product_card__animation`} key={i}>
                 <motion.div
                     variants={fadeIn("right", "spring", i * 0.5, 0.75)}
                     className="w-full rounded-[20px] flex flex-col justify-center items-center gap-4"
