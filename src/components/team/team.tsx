@@ -25,9 +25,9 @@ const Teams = () => {
                   <Image src={image} alt="" width={150} height={150} className="bg-[#00000033] rounded-full h-[120px] w-[120px] object-contain flex items-center justify-center" />
                   <div>
                     <TeamModal isOpen={showForm == i} member={member} closeModal={() => setShowForm(null)} />
-                    <p className="text-white font-bold">{member.name}</p>
-                    <p className="text-dimWhite font-bold">{member.email}</p>
-                    <p className="text-dimWhite font-bold">{member.role}</p>
+                    <p className="text-white font-bold text-[15px]">{member.name}</p>
+                    <p className="text-dimWhite font-bold text-[13px]">{member.email.length < 25 ? member.email : member.email.slice(0, 25) + '...'}</p>
+                    <p className="text-dimWhite font-bold text-[13px]">{member.role}</p>
                   </div>
                 </div>
               </div>
