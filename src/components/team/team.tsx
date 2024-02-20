@@ -22,7 +22,7 @@ const Teams = () => {
               <div key={i} onClick={() => setShowForm(i)}>
                 <div 
                   className="flex flex-col justify-center items-center gap-12 h-[300px] w-[250px] bg-black-gradient-3 my-4 box-shadow rounded-xl hover:scale-110 transition duration-500 cursor-pointer">
-                  <Image src={image} alt="" width={150} height={150} className="bg-[#00000033] rounded-full h-[120px] w-[120px] object-contain flex items-center justify-center" />
+                  <Image src={member.imageUrl} alt="" width={150} height={150} className="bg-[#00000033] rounded-full h-[120px] w-[120px] object-contain flex items-center justify-center" />
                   <div>
                     <TeamModal isOpen={showForm == i} member={member} closeModal={() => setShowForm(null)} />
                     <p className="text-white font-bold text-[15px]">{member.name}</p>

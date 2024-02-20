@@ -5,7 +5,7 @@ import logo from '@/assets/logo.png'
 const Footer = () => {
   return (
     <footer
-        className="bg-blue-gradient text-center text-dimWhite dark:bg-neutral-600 dark:text-neutral-200 lg:text-left"
+        className="bg-primary text-center text-dimWhite dark:bg-neutral-600 dark:text-neutral-200 lg:text-left"
     >
         <div
             className="flex items-center justify-end p-6 lg:justify-between"

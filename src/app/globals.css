@@ -26,8 +26,8 @@
   );
   --black-gradient-2: linear-gradient(
       -168.39deg,
-      #e4e4e4 -278.56%,
-      #e7e7e7 -78.47%,
+      #ededed -278.56%,
+      #f1f1f1 -78.47%,
       #fafafa 91.61%
     );
   --black-gradient-3: linear-gradient(
@@ -102,8 +102,8 @@
   background: linear-gradient(
     -168.39deg,
     #ffffff -278.56%,
-    #d6d6d6 -78.47%,
-    #ababab 91.61%
+    #eaeaea -78.47%,
+    #b5b5b5 91.61%
   );
 }
 

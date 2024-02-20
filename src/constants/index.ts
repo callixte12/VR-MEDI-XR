@@ -8,6 +8,21 @@ import sponsor_three from '@/assets/image_17.png'
 import sponsor_four from '@/assets/image_18.png'
 import sponsor_five from '@/assets/image_19.png'
 import sponsor_six from '@/assets/image_20.png'
+import ante_2 from '@/assets/pics/_DSC3608.jpeg'
+import anatomy_lab from '@/assets/pics/anatomylab.jpg'
+import aquila from '@/assets/pics/aquila.jpeg'
+import christa from '@/assets/pics/christa.jpeg'
+import ekosse from '@/assets/pics/ekosse.jpeg'
+import eosse from '@/assets/pics/eseosa.jpeg'
+import evar from '@/assets/pics/evar.jpeg'
+import isaac from '@/assets/pics/isaacRudisingwa.png'
+import jean from '@/assets/pics/JeanRobert.jpeg'
+import manzi from '@/assets/pics/manzi.jpg'
+import multiuser from '@/assets/pics/multi-user-lab.png'
+import ante from '@/assets/pics/Nwalahnjie_Anye_Akumawah_(The african Leadership University).jpg'
+import recordings from '@/assets/pics/recordings_lab.png'
+import surgery from '@/assets/pics/surgery_lab.png'
+import wendy from '@/assets/pics/wendy.png'
 
 export const navLinks = [
     {
@@ -62,22 +77,27 @@ export const features = [
 export const productFeatures = [
   {
     title: 'Anatomy Lab',
+    image: anatomy_lab,
     description: 'Learn Anatomy at the tip of your fingers with complex simulations and outcomes linked to every body part.'
   },
   {
     title: 'Surgery Lab',
-    description: 'With various available surgeries, you can practise at your own pace while timing your understanding of various steps required to complete a surgery, ranging through various tiers of understanding.'
+    image: surgery,
+    description: 'You can practise at your own pace while timing your understanding of various steps required to complete a surgery, ranging through various tiers of understanding.'
   },
   {
     title: 'AI Training',
+    image: '',
     description: 'Get deep understanding of your performance in real time with our AI System'
   },
   {
     title: 'Sugery Recording Labs',
+    image: recordings,
     description: 'Immerse yourself in live surgeries of various types'
   },
   {
     title: 'Multi User',
+    image: multiuser,
     description: 'Take your learning beyond the boundaries of your country or region and learn from experts across the world while collaborating with others students in VR'
   }
 ]
@@ -126,7 +146,7 @@ export const team = [
     id: 1,
     name: 'Nwalahnjie Akumawah',
     email: 'nwalahnjie.medixr@gmail.com',
-    imageUrl: '',
+    imageUrl: ante,
     role: 'CEO',
     description: 'Computer Graphics Engineer with experience in Cyber Security.',
     linkedin: '',
@@ -136,7 +156,7 @@ export const team = [
     id: 2,
     name: 'Eseosa Kay-Uwagboe',
     email: 'eseosa.medixr@gmail.com',
-    imageUrl: '',
+    imageUrl: eosse,
     role: 'CTO',
     description: '3D Experience Artist with importance to details',
     linkedin: '',
@@ -146,7 +166,7 @@ export const team = [
     id: 3,
     name: 'Jean Robert Gatwaza',
     email: 'jeanrobertgatwaza.medixr@gmail.com',
-    imageUrl: '',
+    imageUrl: jean,
     role: 'CMO',
     description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
     linkedin: '',

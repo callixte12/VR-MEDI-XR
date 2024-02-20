@@ -1,11 +1,10 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { productFeatures } from '@/constants'
-import Image from 'next/image'
-import image from '@/assets/benefit_1.png'
 import { useInView } from 'react-intersection-observer'
 
 export const fadeIn = (direction: string, type: string, delay: number, duration: number) => {
@@ -41,17 +40,16 @@ const Products = () => {
       </div>
       <motion.div className="flex max-w-[1800px] justify-around flex-wrap gap-4 xxl:gap-12">
         {productFeatures.map((product, i) => (
-          <div ref={ref} className={`${inView && 'product_card__animation'}`}>
+          <div key={i} ref={ref} className={`${inView && 'product_card__animation'}`}>
             <Tilt className={`
               ${(i == 0 || i == 4) ? "xl:mt-48" : (i == 1 || i == 3) && "xl:mt-24"} 
-              
               xs:w-[250px] flex flex-col justify-center items-center h-[300px] w-[230px] bg-black-gradient-3 my-4 box-shadow rounded-xl transition duration-500 cursor-pointer`} key={i}>
                 <motion.div
                     ref={ref}
                     variants={fadeIn("right", "spring", i * 0.5, 0.75)}
-                    className="w-full rounded-[20px] flex flex-col justify-center items-center gap-4"
+                    className="w-full rounded-[20px] flex flex-col justify-center items-center gap-2"
                 >
-                    <Image src={image} alt="" width={150} height={150} className="h-[120px] w-[120px] object-contain flex items-center justify-center" />
+                    <Image src={product.image} alt="" width={150} height={150} className="h-[120px] w-[120px] object-contain flex items-center justify-center" />
                     <div className="px-6 flex items-center flex-col">
                         <h3 className='text-white text-[16px] font-bold text-center'>
                             {product.title}
