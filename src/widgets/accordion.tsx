@@ -22,7 +22,7 @@ const Accordion = () => {
               aria-controls={`accordion-collapse-body-${item.id}`}
               onClick={() => handleAccordionClick(item.id)}
             >
-              <span>{item.question}</span>
+              <p className='text-left'>{item.question}</p>
               <ChevronDownIcon className={`w-4 h-4 rotate-${openAccordion === item.id ? '180' : '0'} shrink-0`} />
             </button>
           </h2>

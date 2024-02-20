@@ -3,9 +3,14 @@
 import Image from 'next/image'
 import styles from '@/style'
 import { features } from '@/constants'
+import { useInView } from 'react-intersection-observer'
 
-const FeatureCard = ({ icon, title, content, index }: any) => (
-    <div className={`flex flex-row p-6 w-[90%] rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card features__card hover:text-[#fff]`}>
+const FeatureCard = ({ icon, title, content, index }: any) => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Only trigger once when the component comes into view
+  });
+  return (
+    <div ref={ref} className={`flex flex-row p-6 w-[90%] rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card ${inView && 'features__card'} hover:text-[#fff]`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-[#ffffff35]`}>
         <Image src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
       </div>
@@ -19,6 +24,7 @@ const FeatureCard = ({ icon, title, content, index }: any) => (
       </div>
     </div>
   )
+}
   
   const Features = () =>  (
       <div id="features" className="flex max-md:flex-col my-8 max-md:my-24 gap-12 sm:pl-12 pl-6 h-[600px] max-w-[1800px] mx-auto items-center justify-between">

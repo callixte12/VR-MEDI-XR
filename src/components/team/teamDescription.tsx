@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import person_1 from '@/assets/person_2.png'
+import { GrLinkedin } from 'react-icons/gr'
+import { FaGithub } from 'react-icons/fa'
+import Link from 'next/link'
 
 const TeamDescription = ({ member }: { member: any }) => {
   return (
@@ -11,6 +14,14 @@ const TeamDescription = ({ member }: { member: any }) => {
             <h2 className="text-primary text-[28px] font-extrabold">{member.name}</h2>
             <p className="text-[14px] font-bold text-[#494949]">{member.email}</p>
             <p className="text-[14px] font-bold text-[#494949]">{member.role}</p>
+            <div className='flex gap-2 m-2'>
+              <Link href=''>
+                <GrLinkedin className='w-[22px] h-[22px]' />
+              </Link>
+              <Link href=''>
+                <FaGithub className='w-[22px] h-[22px]' />
+              </Link>
+            </div>
         </div>
       </div>
       <hr />

@@ -128,7 +128,9 @@ export const team = [
     email: 'nwalahnjie.medixr@gmail.com',
     imageUrl: '',
     role: 'CEO',
-    description: 'Computer Graphics Engineer with experience in Cyber Security.'
+    description: 'Computer Graphics Engineer with experience in Cyber Security.',
+    linkedin: '',
+    github: ''
   },
   {
     id: 2,
@@ -136,7 +138,9 @@ export const team = [
     email: 'eseosa.medixr@gmail.com',
     imageUrl: '',
     role: 'CTO',
-    description: '3D Experience Artist with importance to details'
+    description: '3D Experience Artist with importance to details',
+    linkedin: '',
+    github: ''
   },
   {
     id: 3,
@@ -144,7 +148,9 @@ export const team = [
     email: 'jeanrobertgatwaza.medixr@gmail.com',
     imageUrl: '',
     role: 'CMO',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+    linkedin: '',
+    github: ''
   },
   {
     id: 4,
@@ -152,7 +158,9 @@ export const team = [
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'COO',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+    linkedin: '',
+    github: ''
   },
   {
     id: 5,
@@ -160,7 +168,9 @@ export const team = [
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'Business Manager',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+    linkedin: '',
+    github: ''
   },
   {
     id: 6,
@@ -168,7 +178,9 @@ export const team = [
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'Content Management',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+    linkedin: '',
+    github: ''
   },
   {
     id: 7,
@@ -176,7 +188,9 @@ export const team = [
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'Content Management',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+    linkedin: '',
+    github: ''
   },
   {
     id: 8,
@@ -184,7 +198,9 @@ export const team = [
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'UI/UX Designer Intern',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+    linkedin: '',
+    github: ''
   },
 ]
 
