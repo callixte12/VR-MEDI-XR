@@ -1,15 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
-import person_1 from '@/assets/person_2.png'
 import { GrLinkedin } from 'react-icons/gr'
-import { FaGithub, FaMobile, FaMobileAlt } from 'react-icons/fa'
+import { FaMobileAlt } from 'react-icons/fa'
 import Link from 'next/link'
 
 const TeamDescription = ({ member }: { member: any }) => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-4">
       <div className="flex gap-6 items-center">
-        <Image src={member.imageUrl} alt="" width={80} height={80} className="bg-[#00000033] rounded-full h-[100px] w-[100px] object-contain flex items-center justify-center" />
+        <div className="border-secondary rounded-full border-[3px] p-[4px]">
+          <Image src={member.imageUrl} alt="" width={90} height={90} className="bg-[#00000033] rounded-full h-[90px] w-[90px] object-fit flex items-center justify-center" />
+        </div>
         <div className="flex flex-col">
             <h2 className="text-primary text-[24px] font-extrabold">{member.name}</h2>
             <p className="text-[14px] font-bold text-[#494949]">{member.email}</p>
@@ -30,7 +31,7 @@ const TeamDescription = ({ member }: { member: any }) => {
       </div>
       <hr />
       <div>
-        {member.description}
+        <span className='text-[14px]'>{member.description}</span>
       </div>
     </div>
   )
