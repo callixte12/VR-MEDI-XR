@@ -43,15 +43,15 @@ const Products = () => {
           <div key={i} ref={ref} className={`${inView && 'product_card__animation'}`}>
             <Tilt className={`
               ${(i == 0 || i == 4) ? "xl:mt-48" : (i == 1 || i == 3) && "xl:mt-24"} 
-              xs:w-[250px] flex flex-col justify-center items-center h-[300px] w-[230px] bg-black-gradient-3 my-4 box-shadow rounded-xl transition duration-500 cursor-pointer`} key={i}>
+              xs:w-[250px] flex flex-col justify-center items-center h-[300px] w-[240px] bg-black-gradient-3 my-4 box-shadow rounded-xl transition duration-500 cursor-pointer`} key={i}>
                 <motion.div
                     ref={ref}
                     variants={fadeIn("right", "spring", i * 0.5, 0.75)}
-                    className="w-full rounded-[20px] flex flex-col justify-center items-center gap-2"
+                    className="w-full rounded-[20px] flex flex-col items-center justify-start"
                 >
-                    <Image src={product.image} alt="" width={150} height={150} className="h-[120px] w-[120px] object-contain flex items-center justify-center" />
-                    <div className="px-6 flex items-center flex-col">
-                        <h3 className='text-white text-[16px] font-bold text-center'>
+                    <Image src={product.image} alt="" width={150} height={150} className="h-[150px] w-[200px] object-contain flex items-center justify-center" />
+                    <div className="px-4 flex items-center flex-col">
+                        <h3 className='text-white text-[16px] font-extrabold text-center'>
                             {product.title}
                         </h3>
                         <h3 className='text-white text-[12px] text-center'>

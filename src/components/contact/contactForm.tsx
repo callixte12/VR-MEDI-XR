@@ -82,7 +82,7 @@ const ContactForm = () => {
                                 />
                                 <button
                                     type="submit"
-                                    className="mt-8 bg-primary w-[100%] py-4 rounded-[5px] text-white text-[18px] font-semibold"
+                                    className="mt-8 bg-blue-gradient w-[100%] py-4 rounded-[5px] text-white text-[18px] font-semibold"
                                 >
                                     Contact Us
                                 </button>

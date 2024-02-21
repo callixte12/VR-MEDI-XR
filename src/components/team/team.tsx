@@ -16,7 +16,7 @@ const Teams = () => {
           <h1 className="text-blue-gradient text-[48px] xxl:text-[54px] font-bold">Our Team</h1>
           <p className="font-poppins text-[18px]">Meet the people we work with behind the scenes</p>
         </div>
-        <div className="flex flex-wrap gap-6 xxl:gap-12 max-w-[1100px] mx-auto">
+        <div className="flex flex-wrap gap-6 xxl:gap-12 justify-center max-w-[1100px] mx-auto">
           {
             team.map((member, i) => (
               <div key={i} onClick={() => setShowForm(i)}>

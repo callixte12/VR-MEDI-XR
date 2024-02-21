@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XCircleIcon } from '@heroicons/react/20/solid'
 import TeamDescription from './teamDescription'
+import { FaX } from 'react-icons/fa6'
 
 interface PageProps {
     isOpen: boolean,
@@ -45,11 +46,9 @@ const TeamModal = ({ isOpen, closeModal, member }: PageProps) => {
                             <button
                                 type="button"
                                 onClick={closeModal}
-                                className="absolute top-2 right-2 z-10 w-fit p-2 bg-secondary rounded-full"
+                                className="absolute top-2 right-2 z-10 w-fit p-[6px] bg-secondary rounded-full"
                             >
-                                <XCircleIcon 
-                                    className="icons-small text-[#fff]"
-                                />
+                                <FaX className="text-[#fff] w-[10px] h-[10px]" />
                             </button>
                             <TeamDescription member={member} />
                         </Dialog.Panel>

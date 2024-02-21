@@ -34,7 +34,7 @@ const Page = () => {
                     </Link>
                 </div>
             </nav>
-            <section className="relative flex flex-col gap-12 mt-6 items-center h-[100%] xxl:h-[90vh]">
+            <section className="relative flex flex-col gap-12 mt-6 items-center justify-center xxl:h-[90vh]">
                 <h1 className="text-4xl">Our Team</h1>
                 <Image src={picture} alt="Team" width={150} height={150} className="w-[100%] md:w-[90%] xl:w-[75%] h-[600px] xxl:h-[91%]" />
                 <div className='absolute right-0 bottom-0 bg-white lg:w-[40%] w-[90%] xxl:pr-[100px] xxl:py-[150px] py-[50px] px-[50px]'>
@@ -44,7 +44,7 @@ const Page = () => {
                 </div>
             </section>
         </div>
-        <section id="teams" className="pt-8">
+        <section id="teams" className="flex justify-center w-[100%] pt-8">
             <Team />
         </section>
     </div>

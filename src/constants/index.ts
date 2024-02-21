@@ -22,7 +22,11 @@ import multiuser from '@/assets/pics/multi-user-lab.png'
 import ante from '@/assets/pics/Nwalahnjie_Anye_Akumawah_(The african Leadership University).jpg'
 import recordings from '@/assets/pics/recordings_lab.png'
 import surgery from '@/assets/pics/surgery_lab.png'
-import wendy from '@/assets/pics/wendy.png'
+import wendy from '@/assets/pics/wendy.jpeg'
+import cost from '@/assets/svgs/cost.svg'
+import expert from '@/assets/svgs/experts.svg'
+import immersive from '@/assets/svgs/immersive.svg'
+import training from '@/assets/svgs/training.svg'
 
 export const navLinks = [
     {
@@ -46,28 +50,28 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: StarIcon,
+    icon: cost,
     title: "Reduced Cost",
     content:
       "With Our Virtual Labs reduce the cost of building facilities",
   },
   {
     id: "feature-2",
-    icon: StarIcon,
+    icon: training,
     title: "Medical Training",
     content:
       "Learn how to use medical equipment before stepping into real world. ",
   },
   {
     id: "feature-3",
-    icon: BriefcaseIcon,
+    icon: expert,
     title: "Experts",
     content:
       "Train and learn from experts across the globe with our simulation technology",
   },
   {
     id: "feature-4",
-    icon: StarIcon,
+    icon: immersive,
     title: "Immersive Training",
     content:
       "Practice clinical cases in an immersive environment",
@@ -93,7 +97,7 @@ export const productFeatures = [
   {
     title: 'Sugery Recording Labs',
     image: recordings,
-    description: 'Immerse yourself in live surgeries of various types'
+    description: 'Immerse yourself in live surgeries of various types for the best possible experience'
   },
   {
     title: 'Multi User',
@@ -148,8 +152,9 @@ export const team = [
     email: 'nwalahnjie.medixr@gmail.com',
     imageUrl: ante,
     role: 'CEO',
-    description: 'Computer Graphics Engineer with experience in Cyber Security.',
-    linkedin: '',
+    description: 'Nwalahnjie is a problem solver with expertise in Computer graphics tild towards creating solutions to improve education in Healthcare.',
+    tel: '250790801049',
+    linkedin: 'http://linkedin.com/in/nwalahnjie-akumawah-51a88b20b',
     github: ''
   },
   {
@@ -158,8 +163,9 @@ export const team = [
     email: 'eseosa.medixr@gmail.com',
     imageUrl: eosse,
     role: 'CTO',
-    description: '3D Experience Artist with importance to details',
-    linkedin: '',
+    description: 'Eseosa excels in animating, modeling, and sculpting 3D content in Blender, exporting to Unity for VR medical simulations. Proficient in manipulating 3D models and CT scans, they create realistic surgical simulations for medical education. Their dedication to merging technology and education drives innovation in VR medical training.',
+    tel: '250790135592',
+    linkedin: 'https://www.linkedin.com/in/eseosa-kay-uwagboe-7928a225a/',
     github: ''
   },
   {
@@ -168,58 +174,64 @@ export const team = [
     email: 'jeanrobertgatwaza.medixr@gmail.com',
     imageUrl: jean,
     role: 'CMO',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-    linkedin: '',
+    description: 'Driven by simplicity, Robert envision a world by where human-machine relationship transcends challenges for healthy living',
+    tel: '250788494219',
+    linkedin: 'https://www.linkedin.com/in/gatwaza/',
     github: ''
   },
   {
     id: 4,
-    name: 'Jill Doe',
+    name: 'Christa Uwicyeza',
     email: 'johndoe@gmail.com',
-    imageUrl: '',
+    imageUrl: christa,
     role: 'COO',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-    linkedin: '',
+    description: "Christa champions a world where streamlined interactions between humans and technology foster well-being and overcome life's complexities.",
+    tel: '250783731214',
+    linkedin: 'https://www.linkedin.com/in/christa-uwicyeza-17779a252/',
     github: ''
   },
   {
     id: 5,
-    name: 'Jones Doe',
+    name: 'Isaac Rudasingwa',
     email: 'johndoe@gmail.com',
-    imageUrl: '',
+    imageUrl: isaac,
     role: 'Business Manager',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-    linkedin: '',
-    github: ''
-  },
-  {
-    id: 6,
-    name: 'Jones Doe',
-    email: 'johndoe@gmail.com',
-    imageUrl: '',
-    role: 'Content Management',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-    linkedin: '',
+    description: 'Isaac is a visionary software engineer, business strategist, and XR architect passionate about immersive technologies. He excels in transforming ideas into impactful solutions, blending technology and business needs seamlessly.',
+    tel: '250786494450',
+    linkedin: 'https://www.linkedin.com/in/isaac-rudasingwa-617073246',
     github: ''
   },
   {
     id: 7,
-    name: 'Jones Doe',
+    name: 'Manzi Guy Badian',
     email: 'johndoe@gmail.com',
-    imageUrl: '',
+    imageUrl: manzi,
     role: 'Content Management',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-    linkedin: '',
+    description: "Expert at making users question their life choices by creating interfaces so intuitive, they'll wonder why they ever bothered learning to read. I specialize in making buttons that nobody can resist clicking, except maybe your grandma. Fluent in Lorem Ipsum and can speak in wireframes. My designs are so sleek, they make Apple jealous.",
+    tel: '250787682784',
+    linkedin: 'https://www.linkedin.com/in/manzi-badian-a3ba74274/',
     github: ''
   },
   {
     id: 8,
-    name: 'Jannet Doe',
+    name: 'Byiringiro Remy Marius',
     email: 'johndoe@gmail.com',
     imageUrl: '',
     role: 'UI/UX Designer Intern',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-    linkedin: '',
+    description: 'Marius is a medical student who has a keen interest in research.He enjoys to explore new topics and finding innovative solutions to health problems.He hopes to publish his findings in a reputable journal and become a successful physician-scientist who changed the world.',
+    tel: '250788717630',
+    linkedin: 'http://www.linkedin.com/in/byiringiro-remy-marius-6b6320241',
+    github: ''
+  },
+  {
+    id: 9,
+    name: 'Wendy Ornella Ruzindana',
+    email: 'johndoe@gmail.com',
+    imageUrl: wendy,
+    role: 'UI/UX Designer Intern',
+    description: "With her expertise in managing operations, Wendy plays a pivotal role in steering the company towards its mission and vision. Her strategic focus on business operations ensures that MediXR move forward effectively and efficiently.",
+    tel: '250791501423',
+    linkedin: 'http://www.linkedin.com/in/byiringiro-remy-marius-6b6320241',
     github: ''
   },
 ]
