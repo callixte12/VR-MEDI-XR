@@ -1,4 +1,3 @@
-import { BriefcaseIcon, StarIcon } from '@heroicons/react/20/solid'
 import benefit_1 from '@/assets/benefit_1.png'
 import benefit_2 from '@/assets/benefit_2.png'
 import benefit_3 from '@/assets/benefit_3.png'
@@ -8,13 +7,9 @@ import sponsor_three from '@/assets/image_17.png'
 import sponsor_four from '@/assets/image_18.png'
 import sponsor_five from '@/assets/image_19.png'
 import sponsor_six from '@/assets/image_20.png'
-import ante_2 from '@/assets/pics/_DSC3608.jpeg'
 import anatomy_lab from '@/assets/pics/anatomylab.jpg'
-import aquila from '@/assets/pics/aquila.jpeg'
 import christa from '@/assets/pics/christa.jpeg'
-import ekosse from '@/assets/pics/ekosse.jpeg'
 import eosse from '@/assets/pics/eseosa.jpeg'
-import evar from '@/assets/pics/evar.jpeg'
 import isaac from '@/assets/pics/isaacRudisingwa.png'
 import jean from '@/assets/pics/JeanRobert.jpeg'
 import manzi from '@/assets/pics/manzi.jpg'
@@ -27,6 +22,12 @@ import cost from '@/assets/svgs/cost.svg'
 import expert from '@/assets/svgs/experts.svg'
 import immersive from '@/assets/svgs/immersive.svg'
 import training from '@/assets/svgs/training.svg'
+import jean_jacques from '@/assets/jean_jacques.jpg'
+import zyh from '@/assets/zyh.jpg'
+import ante_2 from '@/assets/pics/_DSC3608.jpeg'
+import aquila from '@/assets/pics/aquila.jpeg'
+import ekosse from '@/assets/pics/ekosse.jpeg'
+import evar from '@/assets/pics/evar.jpeg'
 
 export const navLinks = [
     {
@@ -109,40 +110,32 @@ export const productFeatures = [
 export const slides = [
   {
   rating: 1,
-  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-  author: "Michael Scott",
-  role: "Medical Student, B&B",
+  quote: "The ability to learn in an immersive environment is such game changing experience for me in learning Anatomy.",
+  author: "Marius",
+  role: "Medical Student",
   image: ''
   },
   {
   rating: 3,
-  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-  author: "M Scott",
-  role: "Medical Student, B&B",
+  quote: "Ability to practice everything i am reading is unparalleled and nearly seem impossible at first.",
+  author: "Tina",
+  role: "Medical Student",
+  image: ''
+  },
+  {
+  rating: 4,
+  quote: "Being confident is a critical skill and medicine, and with such a simulations, i have never been more confident",
+  author: "Waheed",
+  role: "Medical Student",
   image: ''
   },
   {
   rating: 4,
   quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
   author: "Michael S",
-  role: "Medical Student, B&B",
+  role: "Medical Student",
   image: ''
-  },
-  {
-  rating: 4,
-  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-  author: "Michael S",
-  role: "Medical Student, B&B",
-  image: ''
-  },
-  {
-  rating: 4,
-  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
-  author: "Michael S",
-  role: "Medical Student, B&B",
-  image: ''
-  },
-  // Add more slides as needed
+  }
 ]
 
 export const team = [
@@ -241,7 +234,7 @@ export const experts = [
     id: 1,
     name: 'Dr Zyh',
     email: 'johndoe@gmail.com',
-    imageUrl: '',
+    imageUrl: zyh,
     role: 'Patient Care Expert',
     description: 'Dr Zyh has worked in several help post and hospitals around Cameroon and has wide experience in patient consultation and currently runs EasyHealth which brings home consultations'
   },
@@ -249,7 +242,7 @@ export const experts = [
     id: 2,
     name: 'Dr Daniel',
     email: 'johndoe@gmail.com',
-    imageUrl: '',
+    imageUrl: jean_jacques,
     role: 'Radiologies Expert',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
   },

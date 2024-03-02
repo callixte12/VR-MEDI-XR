@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { GrLinkedin } from 'react-icons/gr'
-import { FaMobileAlt } from 'react-icons/fa'
+// import { FaMobileAlt } from 'react-icons/fa'
 import Link from 'next/link'
 
 const TeamDescription = ({ member }: { member: any }) => {
@@ -22,10 +22,10 @@ const TeamDescription = ({ member }: { member: any }) => {
               {/* <Link href={member.github}>
                 <FaGithub className='w-[20px] h-[20px]' />
               </Link> */}
-              <div className='flex'>
+              {/* <div className='flex'>
                 <FaMobileAlt className='w-[20px] h-[20px]' />
                 <span className='text-[14px]'> +{member.tel}</span>
-              </div>
+              </div> */}
             </div>
         </div>
       </div>

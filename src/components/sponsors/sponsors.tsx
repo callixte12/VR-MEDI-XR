@@ -10,12 +10,12 @@ const Sponsors = () => {
           <div className="slide-track">
             {sponsors.map((sponsor, index) => (
                 <div key={index} className="slide">
-                    <Image src={sponsor} alt={`sponsor ${index}`} width={150} height={100} className="w-[220px]" />
+                    <Image src={sponsor} alt={`sponsor ${index}`} width={100} height={100} className="w-[200px]" />
                 </div>
             ))}
             {sponsors.map((sponsor, index) => (
                 <div key={index} className="slide">
-                    <Image src={sponsor} alt={`sponsor ${index}`} width={150} height={100} className="w-[220px]" />
+                    <Image src={sponsor} alt={`sponsor ${index}`} width={100} height={100} className="w-[200px]" />
                 </div>
             ))}
           </div>

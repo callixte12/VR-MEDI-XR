@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { slides } from '@/constants'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
-import { ChevronLeftIcon, ChevronRightIcon, StarIcon } from '@heroicons/react/24/solid'
+import { StarIcon } from '@heroicons/react/24/solid'
 
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
@@ -14,7 +14,7 @@ import 'swiper/css/navigation'
 const Testimonials = () => {
   return (
     <section className="bg-gray-50 flex justify-center">
-      <div className="max-w-[1800px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+      <div className="max-w-[1800px] px-8 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
         <div className="w-[90%] mx-auto justify-center grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
           <div className="flex flex-col justify-center text-center lg:col-span-1">
             <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">

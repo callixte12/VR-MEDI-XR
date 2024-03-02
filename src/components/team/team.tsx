@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import image from '@/assets/person_2.png'
 import { team } from '@/constants'
 import TeamModal from './teamModal'
 
