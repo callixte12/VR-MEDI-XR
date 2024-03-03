@@ -4,8 +4,6 @@ import { useState } from 'react'
 import { XMarkIcon, Bars4Icon } from '@heroicons/react/24/solid'
 import { navLinks } from '@/constants'
 import { StyledButton } from '@/widgets'
-import logo from '../../../public/logo.png'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const Navbar = () => {
@@ -15,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="fixed bg-white z-50 top-0 left-0 w-full md:px-4 lg:px-12 px-2 font-mono flex py-6 justify-between items-center navbar">
         <Link href="/" className="flex gap-2 items-center">
-            <Image src={logo} alt="mediXR" className="w-[60px] h-[50px]" />
+            <img src='/logo.png' alt="mediXR" className="w-[60px] h-[50px]" />
             <h3 className="text-secondary font-bold text-4xl font-poppins">Medi<span className="text-primary font-extrabold">XR</span></h3>
         </Link>
 

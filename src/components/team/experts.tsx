@@ -24,7 +24,7 @@ const Experts = () => {
               <div ref={ref} key={i} className={`${i%2 !== 0 ? `flex-row-reverse ${inView && 'features__card'}` : `${inView && 'features__card'}`} flex max-md:flex-col w-[95%] sm:w-[80%] xxl:w-[70%] gap-6`}>
                 <div 
                   className="flex flex-col justify-center items-center min-h-[200px] w-[250px] my-4 cursor-pointer">
-                  <Image src={member.imageUrl} alt="" width={150} height={150} className="rounded-full h-[150px] w-[150px] object-contain flex items-center justify-center -mt-16" />
+                  <img src={member.imageUrl} alt="" width={150} height={150} className="rounded-full h-[150px] w-[150px] object-contain flex items-center justify-center -mt-16" />
                   <div className="flex flex-col items-center justify-center">
                     <p className="text-primary font-bold font-poppins">{member.name}</p>
                   </div>

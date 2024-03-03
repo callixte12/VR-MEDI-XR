@@ -1,29 +1,7 @@
-import benefit_1 from '../../public/benefit_1.png'
-import benefit_2 from '../../public/benefit_2.png'
-import benefit_3 from '../../public/benefit_3.png'
-import sponsor_one from '../../public/image_13.png'
-import sponsor_two from '../../public/image_15.png'
-import sponsor_three from '../../public/image_17.png'
-import sponsor_four from '../../public/image_18.png'
-import sponsor_five from '../../public/image_19.png'
-import sponsor_six from '../../public/image_20.png'
-import anatomy_lab from '../../public/anatomylab.jpg'
-import christa from '../../public/christa.jpeg'
-import eosse from '../../public/eseosa.jpeg'
-import isaac from '../../public/isaacRudisingwa.png'
-import jean from '../../public/JeanRobert.jpeg'
-import manzi from '../../public/manzi.jpg'
-import multiuser from '../../public/multi-user-lab.png'
-import ante from '../../public/Nwalahnjie_Anye_Akumawah_(The african Leadership University).jpg'
-import recordings from '../../public/recordings_lab.png'
-import surgery from '../../public/surgery_lab.png'
-import wendy from '../../public/wendy.jpeg'
 import cost from '../../public/cost.svg'
 import expert from '../../public/experts.svg'
 import immersive from '../../public/immersive.svg'
 import training from '../../public/training.svg'
-import jean_jacques from '../../public/jean_jacques.jpg'
-import zyh from '../../public/zyh.jpg'
 import ante_2 from '../../public/_DSC3608.jpeg'
 import aquila from '../../public/aquila.jpeg'
 import ekosse from '../../public/ekosse.jpeg'
@@ -82,12 +60,12 @@ export const features = [
 export const productFeatures = [
   {
     title: 'Anatomy Lab',
-    image: anatomy_lab,
+    image: '/anatomylab.jpg',
     description: 'Learn Anatomy at the tip of your fingers with complex simulations and outcomes linked to every body part.'
   },
   {
     title: 'Surgery Lab',
-    image: surgery,
+    image: '/surgery_lab.png',
     description: 'You can practise at your own pace while timing your understanding of various steps required to complete a surgery, ranging through various tiers of understanding.'
   },
   {
@@ -97,12 +75,12 @@ export const productFeatures = [
   },
   {
     title: 'Sugery Recording Labs',
-    image: recordings,
+    image: '/recordings_lab.png',
     description: 'Immerse yourself in live surgeries of various types for the best possible experience'
   },
   {
     title: 'Multi User',
-    image: multiuser,
+    image: '/multi-user-lab.png',
     description: 'Take your learning beyond the boundaries of your country or region and learn from experts across the world while collaborating with others students in VR'
   }
 ]
@@ -131,7 +109,7 @@ export const slides = [
   },
   {
   rating: 4,
-  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?",
+  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what?",
   author: "Michael S",
   role: "Medical Student",
   image: ''
@@ -143,7 +121,7 @@ export const team = [
     id: 1,
     name: 'Nwalahnjie Akumawah',
     email: 'nwalahnjie.medixr@gmail.com',
-    imageUrl: ante,
+    imageUrl: '/Nwalahnjie_Anye_Akumawah_(The african Leadership University).jpg',
     role: 'C.E.O.',
     description: 'Nwalahnjie is a problem solver with expertise in Computer graphics tild towards creating solutions to improve education in Healthcare.',
     tel: '250790801049',
@@ -154,7 +132,7 @@ export const team = [
     id: 2,
     name: 'Eseosa Kay-Uwagboe',
     email: 'eseosa.medixr@gmail.com',
-    imageUrl: eosse,
+    imageUrl: '/eseosa.jpeg',
     role: 'C.T.O.',
     description: 'Eseosa excels in animating, modeling, and sculpting 3D content in Blender, exporting to Unity for VR medical simulations. Proficient in manipulating 3D models and CT scans, they create realistic surgical simulations for medical education. Their dedication to merging technology and education drives innovation in VR medical training.',
     tel: '250790135592',
@@ -165,7 +143,7 @@ export const team = [
     id: 3,
     name: 'Jean Robert Gatwaza',
     email: 'jeanrobertgatwaza.medixr@gmail.com',
-    imageUrl: jean,
+    imageUrl: '/JeanRobert.jpeg',
     role: 'C.M.O.',
     description: 'Driven by simplicity, Robert envision a world by where human-machine relationship transcends challenges for healthy living',
     tel: '250788494219',
@@ -176,7 +154,7 @@ export const team = [
     id: 4,
     name: 'Christa Uwicyeza',
     email: 'johndoe@gmail.com',
-    imageUrl: christa,
+    imageUrl: '/christa.jpeg',
     role: 'C.O.O.',
     description: "Christa champions a world where streamlined interactions between humans and technology foster well-being and overcome life's complexities.",
     tel: '250783731214',
@@ -187,7 +165,7 @@ export const team = [
     id: 5,
     name: 'Isaac Rudasingwa',
     email: 'johndoe@gmail.com',
-    imageUrl: isaac,
+    imageUrl: '/isaacRudisingwa.png',
     role: 'Business Manager',
     description: 'Isaac is a visionary software engineer, business strategist, and XR architect passionate about immersive technologies. He excels in transforming ideas into impactful solutions, blending technology and business needs seamlessly.',
     tel: '250786494450',
@@ -198,7 +176,7 @@ export const team = [
     id: 7,
     name: 'Manzi Guy Badian',
     email: 'johndoe@gmail.com',
-    imageUrl: manzi,
+    imageUrl: '/manzi.jpg',
     role: 'Content Management',
     description: "Expert at making users question their life choices by creating interfaces so intuitive, they'll wonder why they ever bothered learning to read. I specialize in making buttons that nobody can resist clicking, except maybe your grandma. Fluent in Lorem Ipsum and can speak in wireframes. My designs are so sleek, they make Apple jealous.",
     tel: '250787682784',
@@ -220,7 +198,7 @@ export const team = [
     id: 9,
     name: 'Wendy Ornella Ruzindana',
     email: 'johndoe@gmail.com',
-    imageUrl: wendy,
+    imageUrl: '/wendy.jpeg',
     role: 'UI/UX Designer Intern',
     description: "With her expertise in managing operations, Wendy plays a pivotal role in steering the company towards its mission and vision. Her strategic focus on business operations ensures that MediXR move forward effectively and efficiently.",
     tel: '250791501423',
@@ -234,7 +212,7 @@ export const experts = [
     id: 1,
     name: 'Dr Zyh',
     email: 'johndoe@gmail.com',
-    imageUrl: zyh,
+    imageUrl: '/zyh.jpg',
     role: 'Patient Care Expert',
     description: 'Dr Zyh has worked in several help post and hospitals around Cameroon and has wide experience in patient consultation and currently runs EasyHealth which brings home consultations'
   },
@@ -242,7 +220,7 @@ export const experts = [
     id: 2,
     name: 'Dr Daniel',
     email: 'johndoe@gmail.com',
-    imageUrl: jean_jacques,
+    imageUrl: '/jean_jacques.jpg',
     role: 'Radiologies Expert',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
   }
@@ -250,15 +228,15 @@ export const experts = [
 
 export const benefits = [
   {
-    image: benefit_1,
+    image: '/benefit_1.png',
     benefit: 'Emotional preparedness before stepping into the real field.'
   },
   {
-    image: benefit_2,
+    image: '/benefit_2.png',
     benefit: 'Practice within a safe risk free environment at your own Pace.'
   },
   {
-    image: benefit_3,
+    image: '/benefit_3.png',
     benefit: 'Master Your skills through collaborations with classmates.'
   },
 ]
@@ -303,10 +281,10 @@ export const accordionData = [
 ]
 
 export const sponsors = [
-  sponsor_one,
-  sponsor_two,
-  sponsor_three,
-  sponsor_four,
-  sponsor_five,
-  sponsor_six
+'/image_13.png',
+'/image_15.png',
+'/image_17.png',
+'/image_18.png',
+'/image_19.png',
+'/image_20.png',
 ]

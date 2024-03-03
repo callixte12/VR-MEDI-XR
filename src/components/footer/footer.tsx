@@ -1,6 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import logo from '../../../public/logo.png'
 
 const Footer = () => {
   return (
@@ -81,7 +79,7 @@ const Footer = () => {
                     <div
                         className="mb-4 flex items-center justify-center font-semibold gap-3 uppercase md:justify-start"
                     >
-                        <Image src={logo} alt="mediXR" className="w-[60px] h-[50px]" />
+                        <img src='/logo.png' alt="mediXR" className="w-[60px] h-[50px]" />
                         <h3 className="text-dimWhite font-bold text-3xl font-poppins">Medi<span className="text-primary font-extrabold">XR</span></h3>
                     </div>
                     <p>

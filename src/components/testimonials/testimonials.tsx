@@ -62,7 +62,7 @@ const Testimonials = () => {
             >
                 {slides.map((slide, i) => (
                   <SwiperSlide key={i}>
-                    <div className="w-[400px] max-sm:w-[97%] rounded-xl box-shadow bg-white">
+                    <div className="w-[400px] h-[300px] max-sm:w-[97%] rounded-xl box-shadow bg-white">
                           <blockquote className="flex h-full flex-col justify-between shadow-sm p-4 lg:py-8 lg:px-12">
                               <div>
                                 <h3 className="text-black-gradient text-[70px] -mb-12 font-poppins">&quot;</h3>

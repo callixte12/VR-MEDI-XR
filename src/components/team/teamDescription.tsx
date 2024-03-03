@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { GrLinkedin } from 'react-icons/gr'
 // import { FaMobileAlt } from 'react-icons/fa'
 import Link from 'next/link'
@@ -9,7 +8,7 @@ const TeamDescription = ({ member }: { member: any }) => {
     <div className="flex flex-col gap-4">
       <div className="flex gap-6 items-center">
         <div className="border-secondary rounded-full border-[3px] p-[4px]">
-          <Image src={member.imageUrl} alt="" width={90} height={90} className="bg-[#00000033] rounded-full h-[90px] w-[90px] object-fit flex items-center justify-center" />
+          <img src={member.imageUrl} alt="" width={90} height={90} className="bg-[#00000033] rounded-full h-[90px] w-[90px] object-fit flex items-center justify-center" />
         </div>
         <div className="flex flex-col">
             <h2 className="text-primary text-[24px] font-extrabold">{member.name}</h2>

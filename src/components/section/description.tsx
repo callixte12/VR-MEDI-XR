@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-import team from '../../../public/IMGL8816.jpg'
 import { fadeIn } from '@/utils/motion'
 import { Accordion } from '@/widgets'
 import { motion } from 'framer-motion'
@@ -30,7 +28,7 @@ const CompanyDescription = () => {
                     viewport={{ once: true }}
                     onViewportEnter={() => setIsInView(true)}
                   >
-                    <Image src={team} alt="team" width={400} height={300} onLoad={() => setIsLoaded(true)} className='w-[600px]' />
+                    <img src='/IMGL8816.jpg' alt="team" width={400} height={300} onLoad={() => setIsLoaded(true)} className='w-[600px]' />
                   </motion.div>
                 </div>
                 <div className="description__accordion flex-1 lg:pl-4 w-[100%]">
