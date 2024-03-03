@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { XMarkIcon, Bars4Icon } from '@heroicons/react/24/solid'
 import { navLinks } from '@/constants'
 import { StyledButton } from '@/widgets'
-import logo from '@/assets/logo.png'
+import logo from '../../../public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
 

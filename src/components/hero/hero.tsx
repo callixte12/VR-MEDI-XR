@@ -1,4 +1,4 @@
-import person from '@/assets/IMGL9169-removebg-preview.png'
+import person from '../../../public/IMGL9169-removebg-preview.png'
 import Image from 'next/image'
 
 const Hero = () => {

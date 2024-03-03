@@ -1,33 +1,33 @@
-import benefit_1 from '@/assets/benefit_1.png'
-import benefit_2 from '@/assets/benefit_2.png'
-import benefit_3 from '@/assets/benefit_3.png'
-import sponsor_one from '@/assets/image_13.png'
-import sponsor_two from '@/assets/image_15.png'
-import sponsor_three from '@/assets/image_17.png'
-import sponsor_four from '@/assets/image_18.png'
-import sponsor_five from '@/assets/image_19.png'
-import sponsor_six from '@/assets/image_20.png'
-import anatomy_lab from '@/assets/pics/anatomylab.jpg'
-import christa from '@/assets/pics/christa.jpeg'
-import eosse from '@/assets/pics/eseosa.jpeg'
-import isaac from '@/assets/pics/isaacRudisingwa.png'
-import jean from '@/assets/pics/JeanRobert.jpeg'
-import manzi from '@/assets/pics/manzi.jpg'
-import multiuser from '@/assets/pics/multi-user-lab.png'
-import ante from '@/assets/pics/Nwalahnjie_Anye_Akumawah_(The african Leadership University).jpg'
-import recordings from '@/assets/pics/recordings_lab.png'
-import surgery from '@/assets/pics/surgery_lab.png'
-import wendy from '@/assets/pics/wendy.jpeg'
-import cost from '@/assets/svgs/cost.svg'
-import expert from '@/assets/svgs/experts.svg'
-import immersive from '@/assets/svgs/immersive.svg'
-import training from '@/assets/svgs/training.svg'
-import jean_jacques from '@/assets/jean_jacques.jpg'
-import zyh from '@/assets/zyh.jpg'
-import ante_2 from '@/assets/pics/_DSC3608.jpeg'
-import aquila from '@/assets/pics/aquila.jpeg'
-import ekosse from '@/assets/pics/ekosse.jpeg'
-import evar from '@/assets/pics/evar.jpeg'
+import benefit_1 from '../../public/benefit_1.png'
+import benefit_2 from '../../public/benefit_2.png'
+import benefit_3 from '../../public/benefit_3.png'
+import sponsor_one from '../../public/image_13.png'
+import sponsor_two from '../../public/image_15.png'
+import sponsor_three from '../../public/image_17.png'
+import sponsor_four from '../../public/image_18.png'
+import sponsor_five from '../../public/image_19.png'
+import sponsor_six from '../../public/image_20.png'
+import anatomy_lab from '../../public/anatomylab.jpg'
+import christa from '../../public/christa.jpeg'
+import eosse from '../../public/eseosa.jpeg'
+import isaac from '../../public/isaacRudisingwa.png'
+import jean from '../../public/JeanRobert.jpeg'
+import manzi from '../../public/manzi.jpg'
+import multiuser from '../../public/multi-user-lab.png'
+import ante from '../../public/Nwalahnjie_Anye_Akumawah_(The african Leadership University).jpg'
+import recordings from '../../public/recordings_lab.png'
+import surgery from '../../public/surgery_lab.png'
+import wendy from '../../public/wendy.jpeg'
+import cost from '../../public/cost.svg'
+import expert from '../../public/experts.svg'
+import immersive from '../../public/immersive.svg'
+import training from '../../public/training.svg'
+import jean_jacques from '../../public/jean_jacques.jpg'
+import zyh from '../../public/zyh.jpg'
+import ante_2 from '../../public/_DSC3608.jpeg'
+import aquila from '../../public/aquila.jpeg'
+import ekosse from '../../public/ekosse.jpeg'
+import evar from '../../public/evar.jpeg'
 
 export const navLinks = [
     {
@@ -144,7 +144,7 @@ export const team = [
     name: 'Nwalahnjie Akumawah',
     email: 'nwalahnjie.medixr@gmail.com',
     imageUrl: ante,
-    role: 'CEO',
+    role: 'C.E.O.',
     description: 'Nwalahnjie is a problem solver with expertise in Computer graphics tild towards creating solutions to improve education in Healthcare.',
     tel: '250790801049',
     linkedin: 'http://linkedin.com/in/nwalahnjie-akumawah-51a88b20b',
@@ -155,7 +155,7 @@ export const team = [
     name: 'Eseosa Kay-Uwagboe',
     email: 'eseosa.medixr@gmail.com',
     imageUrl: eosse,
-    role: 'CTO',
+    role: 'C.T.O.',
     description: 'Eseosa excels in animating, modeling, and sculpting 3D content in Blender, exporting to Unity for VR medical simulations. Proficient in manipulating 3D models and CT scans, they create realistic surgical simulations for medical education. Their dedication to merging technology and education drives innovation in VR medical training.',
     tel: '250790135592',
     linkedin: 'https://www.linkedin.com/in/eseosa-kay-uwagboe-7928a225a/',
@@ -166,7 +166,7 @@ export const team = [
     name: 'Jean Robert Gatwaza',
     email: 'jeanrobertgatwaza.medixr@gmail.com',
     imageUrl: jean,
-    role: 'CMO',
+    role: 'C.M.O.',
     description: 'Driven by simplicity, Robert envision a world by where human-machine relationship transcends challenges for healthy living',
     tel: '250788494219',
     linkedin: 'https://www.linkedin.com/in/gatwaza/',
@@ -177,7 +177,7 @@ export const team = [
     name: 'Christa Uwicyeza',
     email: 'johndoe@gmail.com',
     imageUrl: christa,
-    role: 'COO',
+    role: 'C.O.O.',
     description: "Christa champions a world where streamlined interactions between humans and technology foster well-being and overcome life's complexities.",
     tel: '250783731214',
     linkedin: 'https://www.linkedin.com/in/christa-uwicyeza-17779a252/',
@@ -244,14 +244,6 @@ export const experts = [
     email: 'johndoe@gmail.com',
     imageUrl: jean_jacques,
     role: 'Radiologies Expert',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
-  },
-  {
-    id: 3,
-    name: 'Dr Noel Junior',
-    email: 'johndoe@gmail.com',
-    imageUrl: '',
-    role: 'CEO',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
   }
 ]

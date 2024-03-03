@@ -20,12 +20,11 @@ const Teams = () => {
             team.map((member, i) => (
               <div key={i} onClick={() => setShowForm(i)}>
                 <div 
-                  className="flex flex-col justify-center items-center gap-12 h-[300px] w-[250px] bg-black-gradient-3 my-4 box-shadow rounded-xl hover:scale-110 transition duration-500 cursor-pointer">
+                  className="flex flex-col justify-center items-center gap-12 h-[270px] w-[220px] bg-black-gradient-3 my-4 box-shadow rounded-xl hover:scale-110 transition duration-500 cursor-pointer">
                   <Image src={member.imageUrl} alt="" width={150} height={150} className="bg-[#00000033] rounded-full h-[120px] w-[120px] object-cover flex items-center justify-center" />
-                  <div>
+                  <div className='flex flex-col items-center'>
                     <TeamModal isOpen={showForm == i} member={member} closeModal={() => setShowForm(null)} />
                     <p className="text-white font-bold text-[15px]">{member.name}</p>
-                    <p className="text-dimWhite font-bold text-[13px]">{member.email.length < 25 ? member.email : member.email.slice(0, 25) + '...'}</p>
                     <p className="text-dimWhite font-bold text-[13px]">{member.role}</p>
                   </div>
                 </div>

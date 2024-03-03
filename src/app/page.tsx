@@ -1,4 +1,4 @@
-import { NavBar, Hero, Testimonials, Features, Company, Footer, Team, Benefits, Products, Contact, Sponsors } from '@/components'
+import { NavBar, Hero, Testimonials, Features, Company, Footer, Benefits, Products, Contact, Sponsors } from '@/components'
 import Experts from '@/components/team/experts'
 import Head from 'next/head'
 

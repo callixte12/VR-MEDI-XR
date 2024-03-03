@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import team from '@/assets/IMGL8816.jpg'
+import team from '../../../public/IMGL8816.jpg'
 import { fadeIn } from '@/utils/motion'
 import { Accordion } from '@/widgets'
 import { motion } from 'framer-motion'

@@ -12,11 +12,11 @@ const Accordion = () => {
   return (
     <div id="accordion-collapse" data-accordion="collapse" className="box-shadow">
       {accordionData.map((item, index) => (
-        <div key={item.id}>
+        <div key={item.id} className='bg-white'>
           <h2 id={`accordion-collapse-heading-${item.id}`}>
             <button
               type="button"
-              className={`${index === 0 && "rounded-t-xl"} ${index !== accordionData.length - 1 && "border-b-0"} ${openAccordion === item.id ? "bg-blue-gradient text-white" : "text-dimBlacker"} flex font-bold items-center justify-between w-full p-6 rtl:text-right border border-dimBlack hover:bg-blue-gradient gap-3`}
+              className={`${index === 0 && "rounded-t-xl"} ${index !== accordionData.length - 1 && "border-b-0"} ${openAccordion === item.id ? "bg-blue-gradient text-white" : "text-dimBlacker bg-white"} flex font-bold items-center justify-between w-full p-6 rtl:text-right border border-dimBlack hover:bg-blue-gradient gap-3`}
               data-accordion-target={`#accordion-collapse-body-${item.id}`}
               aria-expanded={openAccordion === item.id}
               aria-controls={`accordion-collapse-body-${item.id}`}

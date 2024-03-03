@@ -22,6 +22,7 @@ const config: Config = {
         'bg-3': 'url("/hero-5.svg")',
         'bg-4': 'url("/hero-4.svg")',
         'bg-5': 'url("/IMGL9169.jpg")',
+        'bg-8': 'url("/IMGL9418.jpg")',
         'bg-6': 'url("/bg_2.png")',
         'bg-7': 'url("/bg_3.png")',
         'balls': 'url("/balls.png")'
