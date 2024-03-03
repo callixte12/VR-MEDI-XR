@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { slides } from '@/constants'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
@@ -21,8 +20,7 @@ const Testimonials = () => {
               What do our Clients say?
             </h2>
             <p className="mt-4 text-gray-700">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas veritatis illo placeat
-              harum porro optio fugit a culpa sunt id!
+              We have worked with and for several individuals and organizations. Take a look at what they say about us
             </p>
             <div className="swiper-controler justify-center items-center h-[70px] w-[100%] lg:mt-12 lg:gap-4">
               <div className="swiper-pagination flex gap-[6px] justify-center"></div>
@@ -71,8 +69,8 @@ const Testimonials = () => {
                                 </div>
                               </div>
                               <footer className="flex mt-2 text-sm font-medium text-gray-700 items-center gap-4">
-                                <div className={`flex items-center justify-center w-[45px] h-[45px] rounded-full bg-[#002fff35]`}>
-                                  <Image src="" alt="star" className="w-[50%] h-[50%] object-contain" />
+                                <div className={`flex items-center justify-center rounded-full  bg-[#002fff35]`}>
+                                  <img src={slide.image} alt="star" className="w-[45px] h-[45px] rounded-full object-cover" />
                                 </div>
                                   <div>
                                       <p className="mt-6 leading-relaxed font-bold text-primary text-[15px]">{slide.author}</p>

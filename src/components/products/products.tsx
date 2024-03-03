@@ -35,7 +35,7 @@ const Products = () => {
     <div className="flex flex-col items-center justify-center h-fit py-12 px-8 gap-8">
       <div className="flex flex-col items-center justify-center gap-4">
         <h3 className="text-[60px] font-bold text-white">Product</h3>
-        <p className="text-dimWhite max-w-[1200px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur or sit amet, consectetur</p>
+        <p className="text-dimWhite max-w-[1200px]">At MediXR, we offer a wide array of products. The main product features we offer include</p>
       </div>
       <motion.div className="flex max-w-[1800px] justify-around flex-wrap gap-4 xxl:gap-12">
         {productFeatures.map((product, i) => (

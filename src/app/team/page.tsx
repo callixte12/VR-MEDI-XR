@@ -1,7 +1,5 @@
 'use client'
 
-import logo from '../../../public/logo.png'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { StyledButton } from '@/widgets'
@@ -15,7 +13,7 @@ const Page = () => {
         <div className="">
             <nav className="bg-white bg-opacity-30 fixed top-0 left-0 hover:bg-opacity-100 w-full md:px-4 lg:px-12 px-2 font-mono flex py-6 justify-between items-center navbar z-20">
                 <Link href="/" className="flex gap-2 items-center">
-                    <Image src={logo} alt="mediXR" className="w-[60px] h-[50px]" />
+                    <img src='/logo.png' alt="mediXR" className="w-[60px] h-[50px]" />
                     <h3 className="text-secondary font-bold text-4xl font-poppins">Medi<span className="text-primary font-extrabold">XR</span></h3>
                 </Link>
                 <div className="sm:flex hidden justify-end items-center gap-8">

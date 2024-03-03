@@ -70,7 +70,7 @@ export const productFeatures = [
   },
   {
     title: 'AI Training',
-    image: '',
+    image: '/immersive_training.jpeg',
     description: 'Get deep understanding of your performance in real time with our AI System'
   },
   {
@@ -87,32 +87,25 @@ export const productFeatures = [
 
 export const slides = [
   {
-  rating: 1,
+  rating: 5,
   quote: "The ability to learn in an immersive environment is such game changing experience for me in learning Anatomy.",
   author: "Marius",
   role: "Medical Student",
-  image: ''
+  image: '/student_marius.jpg'
   },
   {
-  rating: 3,
+  rating: 5,
   quote: "Ability to practice everything i am reading is unparalleled and nearly seem impossible at first.",
   author: "Tina",
   role: "Medical Student",
-  image: ''
+  image: '/student_Tina.jpg'
   },
   {
-  rating: 4,
+  rating: 5,
   quote: "Being confident is a critical skill and medicine, and with such a simulations, i have never been more confident",
   author: "Waheed",
   role: "Medical Student",
-  image: ''
-  },
-  {
-  rating: 4,
-  quote: "No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what?",
-  author: "Michael S",
-  role: "Medical Student",
-  image: ''
+  image: '/student_waheed.jpg'
   }
 ]
 
@@ -151,75 +144,73 @@ export const team = [
     github: ''
   },
   {
-    id: 4,
-    name: 'Christa Uwicyeza',
-    email: 'johndoe@gmail.com',
-    imageUrl: '/christa.jpeg',
-    role: 'C.O.O.',
-    description: "Christa champions a world where streamlined interactions between humans and technology foster well-being and overcome life's complexities.",
-    tel: '250783731214',
-    linkedin: 'https://www.linkedin.com/in/christa-uwicyeza-17779a252/',
-    github: ''
-  },
-  {
     id: 5,
     name: 'Isaac Rudasingwa',
-    email: 'johndoe@gmail.com',
+    email: 'isaacrudasingwa.medixr@gmail.com',
     imageUrl: '/isaacRudisingwa.png',
-    role: 'Business Manager',
+    role: 'C.O.O',
     description: 'Isaac is a visionary software engineer, business strategist, and XR architect passionate about immersive technologies. He excels in transforming ideas into impactful solutions, blending technology and business needs seamlessly.',
     tel: '250786494450',
     linkedin: 'https://www.linkedin.com/in/isaac-rudasingwa-617073246',
     github: ''
   },
   {
-    id: 7,
-    name: 'Manzi Guy Badian',
-    email: 'johndoe@gmail.com',
-    imageUrl: '/manzi.jpg',
+    id: 9,
+    name: 'Wendy Ornella Ruzindana',
+    email: 'wendy.medixr@gmail.com',
+    imageUrl: '/wendy.jpeg',
+    role: 'Business Manager',
+    description: "With her expertise in managing operations, Wendy plays a pivotal role in steering the company towards its mission and vision. Her strategic focus on business operations ensures that MediXR move forward effectively and efficiently.",
+    tel: '250791501423',
+    linkedin: 'http://www.linkedin.com/in/byiringiro-remy-marius-6b6320241',
+    github: ''
+  },
+  {
+    id: 4,
+    name: 'Christa Uwicyeza',
+    email: 'christa.medixr@gmail.com',
+    imageUrl: '/christa.jpeg',
     role: 'Content Management',
-    description: "Expert at making users question their life choices by creating interfaces so intuitive, they'll wonder why they ever bothered learning to read. I specialize in making buttons that nobody can resist clicking, except maybe your grandma. Fluent in Lorem Ipsum and can speak in wireframes. My designs are so sleek, they make Apple jealous.",
-    tel: '250787682784',
-    linkedin: 'https://www.linkedin.com/in/manzi-badian-a3ba74274/',
+    description: "Christa champions a world where streamlined interactions between humans and technology foster well-being and overcome life's complexities.",
+    tel: '250783731214',
+    linkedin: 'https://www.linkedin.com/in/christa-uwicyeza-17779a252/',
     github: ''
   },
   {
     id: 8,
     name: 'Byiringiro Remy Marius',
-    email: 'johndoe@gmail.com',
-    imageUrl: '',
-    role: 'UI/UX Designer Intern',
+    email: 'byiringiromarius.medixr@gmail.com',
+    imageUrl: '/student_marius.jpg',
+    role: 'Content Management',
     description: 'Marius is a medical student who has a keen interest in research.He enjoys to explore new topics and finding innovative solutions to health problems.He hopes to publish his findings in a reputable journal and become a successful physician-scientist who changed the world.',
     tel: '250788717630',
     linkedin: 'http://www.linkedin.com/in/byiringiro-remy-marius-6b6320241',
     github: ''
   },
   {
-    id: 9,
-    name: 'Wendy Ornella Ruzindana',
-    email: 'johndoe@gmail.com',
-    imageUrl: '/wendy.jpeg',
-    role: 'UI/UX Designer Intern',
-    description: "With her expertise in managing operations, Wendy plays a pivotal role in steering the company towards its mission and vision. Her strategic focus on business operations ensures that MediXR move forward effectively and efficiently.",
-    tel: '250791501423',
-    linkedin: 'http://www.linkedin.com/in/byiringiro-remy-marius-6b6320241',
+    id: 7,
+    name: 'Manzi Guy Badian',
+    email: 'badianmanzi@gmail.com',
+    imageUrl: '/manzi.jpg',
+    role: 'UI/UX Intern',
+    description: "Expert at making users question their life choices by creating interfaces so intuitive, they'll wonder why they ever bothered learning to read. I specialize in making buttons that nobody can resist clicking, except maybe your grandma. Fluent in Lorem Ipsum and can speak in wireframes. My designs are so sleek, they make Apple jealous.",
+    tel: '250787682784',
+    linkedin: 'https://www.linkedin.com/in/manzi-badian-a3ba74274/',
     github: ''
-  },
+  }
 ]
 
 export const experts = [
   {
     id: 1,
     name: 'Dr Zyh',
-    email: 'johndoe@gmail.com',
     imageUrl: '/zyh.jpg',
     role: 'Patient Care Expert',
     description: 'Dr Zyh has worked in several help post and hospitals around Cameroon and has wide experience in patient consultation and currently runs EasyHealth which brings home consultations'
   },
   {
     id: 2,
-    name: 'Dr Daniel',
-    email: 'johndoe@gmail.com',
+    name: 'Dr Jean',
     imageUrl: '/jean_jacques.jpg',
     role: 'Radiologies Expert',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
