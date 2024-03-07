@@ -16,7 +16,7 @@ const Benefits = () => {
           <div className="flex flex-col gap-12 bg-[#fff] h-fit items-center justify-center border-white">
             <div className="flex flex-col justify-center items-center bg-white">
               <h1 className="text-primary text-[54px] font-bold">Benefits</h1>
-              <p className="font-poppins text-[18px]">Meet the people behing our growing success</p>
+              <p className="font-poppins text-[18px]">Meet the people behind our growing success</p>
             </div>
             <div className="flex flex-wrap mx-auto gap-8 xxl:gap-20 justify-center max-w-[1800px]">
               {benefits.map((benefit, i) => (

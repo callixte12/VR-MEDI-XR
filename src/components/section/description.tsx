@@ -28,7 +28,7 @@ const CompanyDescription = () => {
                     viewport={{ once: true }}
                     onViewportEnter={() => setIsInView(true)}
                   >
-                    <img src='/main_training.heic' alt="team" width={400} height={300} onLoad={() => setIsLoaded(true)} className='w-[600px]' />
+                    <img src='/main_trainig.jpg' alt="team" width={400} height={300} onLoad={() => setIsLoaded(true)} className='w-[600px]' />
                   </motion.div>
                 </div>
                 <div className="description__accordion flex-1 lg:pl-4 w-[100%]">

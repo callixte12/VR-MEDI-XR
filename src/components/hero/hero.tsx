@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="mb-20">
             <p className="text-[45px] max-md:text-[28px] text-black-gradient">Welcome to</p>
             <p className="text-[130px] font-poppins max-lg:text-[100px] max-md:text-[90px] font-extrabold text-gradient lg:-mt-12 -mt-4">MediXR</p>
-            <p className="text-[20px] max-lg:text-[20px] max-md:text-[18px] -mt-4">Training people who save lives</p>
+            <p className="text-[20px] max-lg:text-[20px] max-md:text-[18px] -mt-4">Transforming Healthcare with the Reality of Tomorrow:<br /> Training the people who save lives</p>
         </div>
       </div>
       <div className="xl:flex-[1] flex justify-end items-center w-full max-lg:pb-8">

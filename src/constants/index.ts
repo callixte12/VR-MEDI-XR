@@ -213,7 +213,7 @@ export const experts = [
     name: 'Dr Jean',
     imageUrl: '/jean_jacques.jpg',
     role: 'Radiologies Expert',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolorum quod iste nostrum ducimus quo. Delectus unde natus provident illum ex, a qui voluptatibus molestias explicabo suscipit tenetur! Eos, tenetur.'
+    description: 'Dr jean is a senior radiologist with expertise in body imaging and neuroradiology.'
   }
 ]
 

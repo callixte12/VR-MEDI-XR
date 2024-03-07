@@ -7,7 +7,7 @@ import { Footer, Team } from '@/components'
 
 const Page = () => {
     const router = useRouter()
-    const navigate = () => router.push('#team')
+    const navigate = () => router.push('#the_team')
   return (
     <div className="mx-auto overflow-y-scroll bg-bg-8 bg-cover bg-fixed bg-center bg-no-repeat shadow-lg -mt-[200px] pt-[200px]">
         <div className="">
@@ -39,13 +39,13 @@ const Page = () => {
                 <div className='absolute right-0 bottom-0 bg-white lg:w-[50%] w-[90%] h-[45%]'>
                     <div className='flex flex-col w-[70%] h-[100%] items-center justify-center mx-auto'>
                         <h3 className="text-primary font-poppins text-[40px] font-bold">MediXR Development</h3>
-                        <p className="font-poppins">At MediXR our mission to create training simulation to help Medical students and Doctors save more lives. </p>
+                        <p className="font-poppins">At MediXR, our mission to create training simulations to help medical students and Doctors save more lives. </p>
                         <button className="bg-primary rounded-full px-12 py-4 text-white mt-8 text-2xl animate-bounce" onClick={navigate}>Meet the team</button>
                     </div>
                 </div>
             </section>
         </div>
-        <section id="team" className="flex justify-center w-[100%] pt-8 bg-slate-100">
+        <section id="the_team" className="flex justify-center w-[100%] pt-8 bg-slate-100">
             <Team />
         </section>
         <Footer />
