@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <div className="flex xl:flex-row flex-col gap-2 max-lg:gap-12 max-lg:w-fit mt-40 min-h-[600px] h-fit relative max-w-[1500px] mx-auto">
-      <div className="flex-1 pt-36 sm:px-16 px-6 pb-12 space-y-12">
+    <div className="flex xl:flex-row flex-col gap-2 max-lg:gap-12 mt-40 min-h-[600px] h-fit relative max-w-[1500px] mx-auto">
+      <div className="flex-1 pt-16 sm:px-16 px-6 pb-12 space-y-12">
         <div className="mb-20">
             <p className="text-[45px] max-md:text-[28px] text-black-gradient">Welcome to</p>
             <p className="text-[130px] font-poppins max-lg:text-[100px] max-md:text-[90px] font-extrabold text-gradient lg:-mt-12 -mt-4">MediXR</p>

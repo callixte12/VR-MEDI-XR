@@ -1,17 +1,41 @@
 'use client'
 
 import React, { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const ContactForm = () => {
-  const [errorMessage, setErrorMessage] = useState("")
+    const [errorMessage, setErrorMessage] = useState("")
     const [firstName, setFirstName] = useState("")
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
     const [request, setRequest] = useState("demo")
     const [description, setDescription] = useState("")
 
-    const editCategory = async (e: { preventDefault: () => void }) => {
-        
+    const sendMail = async (e: { preventDefault: () => void }) => {
+        e.preventDefault();
+
+        emailjs
+            .send(
+                'service_wzjrq9r', 
+                'template_gayj0y7', 
+                {
+                    from_name: `${firstName} ${lastName}`,
+                    to_name: 'Medi XR',
+                    from_email: email,
+                    message: `${request}\n ${description}`
+                }, 
+                {
+                    publicKey: '-EsYfZplrPpvLwe0f',
+                }
+            )
+            .then(
+                () => {
+                    alert("Thank you. I will get back to you as soon as possible.")
+                },
+                (error: any) => {
+                    setErrorMessage(error.text)
+                },
+            )
     }
 
     const resetError = () => {
@@ -29,7 +53,7 @@ const ContactForm = () => {
                         <p className="text-center">Let us know what you need</p>
                     </div>
                     <div>
-                        <form onSubmit={editCategory} encType="multipart/form-data">
+                        <form onSubmit={sendMail} encType="multipart/form-data">
                             <div className="mx-8">
                                 <div className={`${!errorMessage && "hidden"} bg-red-100 rounded-[5px] h-fit py-4 px-4 mb-6 text-red-500`}>
                                     <span className="text-red-600 font-bold">Error: </span>{errorMessage}
